@@ -30,6 +30,7 @@ Wöchentliches Quiz zur Tefsir-Sohbet (Fî Zılâli’l-Kur’ân) mit Nickname-
 - `tf` – Richtig/Falsch (`answer`: true/false)
 - `order` – Reihenfolge per Drag & Drop (`items` in richtiger Reihenfolge)
 - `match` – Zuordnen per Drag & Drop (`pairs`: `{left, right}`)
+- `bucket` – Karten in Körbe sortieren, per Ziehen oder Antippen (`buckets`: `[{label, icon}]`, `items`: `[{text, bucket: Index}]`)
 
 Jede Frage kann zusätzlich `image`, `video` (YouTube-ID), `arabic`, `time` (Sekunden) und `explain` haben.
 Texte sind entweder ein String oder `{ "tr": "...", "de": "..." }`.
