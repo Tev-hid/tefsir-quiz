@@ -516,6 +516,45 @@ const RENDERERS = {
         return `<p><b>Richtige Zuordnung:</b></p><ul class="solution">${q.pairs.map((p) => `<li>${esc(plain(p.left))} → ${esc(plain(p.right))}</li>`).join("")}</ul>`;
       }
     };
+  },
+  // Körbe: Karten per Drag & Drop in Kategorien sortieren. buckets: [{label}], items: [{text, bucket: Index}]
+  bucket(q, area, done) {
+    const idx = shuffle(q.items.map((_, i) => i));
+    const card = (i) => `<li data-i="${i}"><span style="flex:1">${tx(q.items[i].text)}</span><span class="tap">${q.buckets.map((b, k) => `<button type="button" data-to="${k}" title="${esc(plain(b.label))}">${esc(b.icon || k + 1)}</button>`).join("")}</span></li>`;
+    area.innerHTML = `
+      <ul class="sortable bucket-pool" id="pool">${idx.map(card).join("")}</ul>
+      <div class="buckets">${q.buckets.map((b, k) => `
+        <div class="bucket"><div class="bucket-head">${tx(b.label)}</div><ul class="sortable bucket-drop" data-b="${k}"></ul></div>`).join("")}
+      </div>
+      <div class="drag-hint">Karte in einen Korb ziehen oder Symbol antippen · Kartı sepete sürükle ya da simgeye dokun</div>
+      <button class="btn block" id="confirm" style="margin-top:12px">Bestätigen</button>`;
+    const lists = [area.querySelector("#pool"), ...area.querySelectorAll(".bucket-drop")];
+    const opts = { group: "bucket-" + Math.random(), animation: 160, ghostClass: "ghost", chosenClass: "chosen", filter: ".tap button", preventOnFilter: false };
+    const sorts = lists.map((l) => new Sortable(l, opts));
+    // Alternativ zum Ziehen: Antippen von 🚗/⛵ verschiebt die Karte in den Korb
+    area.addEventListener("click", (e) => {
+      const btn = e.target.closest(".tap button");
+      if (!btn || btn.disabled) return;
+      area.querySelector(`.bucket-drop[data-b="${btn.dataset.to}"]`).appendChild(btn.closest("li"));
+    });
+    const placed = () => [...area.querySelectorAll(".bucket-drop li")].map((li) => ({ li, i: +li.dataset.i, b: +li.closest(".bucket-drop").dataset.b }));
+    area.querySelector("#confirm").onclick = () => {
+      const right = placed().filter((p) => q.items[p.i].bucket === p.b).length;
+      done({ fraction: right / q.items.length });
+    };
+    return {
+      reveal() {
+        sorts.forEach((s) => s.option("disabled", true));
+        area.querySelectorAll(".tap button").forEach((b) => (b.disabled = true));
+        area.querySelector("#confirm").remove();
+        area.querySelector(".drag-hint").remove();
+        placed().forEach((p) => p.li.classList.add(q.items[p.i].bucket === p.b ? "correct" : "wrong"));
+        area.querySelectorAll("#pool li").forEach((li) => li.classList.add("wrong"));
+      },
+      solutionHtml() {
+        return q.buckets.map((b, k) => `<p><b>${esc(plain(b.label))}</b></p><ul class="solution">${q.items.filter((it) => it.bucket === k).map((it) => `<li>${tx(it.text)}</li>`).join("")}</ul>`).join("");
+      }
+    };
   }
 };
 
