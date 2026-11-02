@@ -8,6 +8,7 @@ import {
   collection, getDocs, query, where
 } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 import { firebaseConfig } from "./firebase-config.js";
+import { initLive, startLive, stopLive, refreshLive, renderLiveAdmin, renderBeamer } from "./live.js";
 import { EMAIL_DOMAIN, ADMIN_NICKS, BASE_POINTS, SPEED_BONUS, DEFAULT_TIME } from "./settings.js";
 
 const fb = initializeApp(firebaseConfig);
@@ -62,6 +63,8 @@ const nickToEmail = (nick) => `${translit(nick.trim()).toLowerCase()}@${EMAIL_DO
 const NICK_RE = /^[A-Za-z0-9_\-ÇĞİÖŞÜçğıöşü]{3,20}$/;
 const medal = (i) => ["🥇", "🥈", "🥉"][i] || String(i + 1);
 
+initLive({ db, state, app, tx, esc, plain, toast, go: (v, a) => go(v, a) });
+
 async function loadCatalog() {
   if (state.catalog) return state.catalog;
   const res = await fetch(`quizzes/index.json?v=${Date.now()}`);
@@ -85,8 +88,12 @@ function setActiveNav(view) {
 }
 function go(view, arg) {
   state.view = view;
-  setActiveNav(view);
+  setActiveNav(view === "live" || view === "beamer" ? "admin" : view);
   window.scrollTo(0, 0);
+  if (view !== "beamer") document.body.classList.remove("beamer-mode");
+  refreshLive();
+  if (view === "live") return state.isAdmin ? renderLiveAdmin() : go("home");
+  if (view === "beamer") return state.isAdmin ? renderBeamer() : go("home");
   if (view === "home") return renderHome();
   if (view === "league") return renderLeague(arg);
   if (view === "admin") return renderAdmin();
@@ -165,7 +172,7 @@ function renderLogin(mode = "login") {
 onAuthStateChanged(auth, async (user) => {
   state.user = user;
   state.inQuiz = false;
-  if (!user) return renderLogin();
+  if (!user) { stopLive(); document.body.classList.remove("beamer-mode"); return renderLogin(); }
   try {
     const uref = doc(db, "users", user.uid);
     let snap = await getDoc(uref);
@@ -181,6 +188,7 @@ onAuthStateChanged(auth, async (user) => {
   state.isAdmin = ADMIN_NICKS.includes(user.email.split("@")[0]);
   document.getElementById("nav-admin").hidden = !state.isAdmin;
   topbar.hidden = false;
+  startLive();
   go("home");
 });
 
@@ -291,6 +299,7 @@ async function startQuiz(meta) {
     }
   }
   state.inQuiz = true;
+  refreshLive();
   nextQuestion(quiz, st, aRef);
 }
 function confirmStart(quiz) {
@@ -577,6 +586,7 @@ async function finishQuiz(quiz, st, aRef) {
     }
   }
   state.inQuiz = false;
+  refreshLive();
   const resSnap = await getDocs(query(collection(db, "results"), where("quizId", "==", quiz.id)));
   const rows = leagueTotals(resSnap.docs.map((d) => d.data()));
   const rank = rows.findIndex((r) => r.uid === state.user.uid);
@@ -615,6 +625,10 @@ async function renderAdmin() {
 
   app.innerHTML = `
     <h1>Admin</h1>
+    <div class="card dark switch-row" style="align-items:center">
+      <div><h3 style="margin:0 0 4px"><span class="dot"></span>&nbsp; Live-Abstimmung</h3><div style="color:#CFDDD6">Umfragen während der Sohbet starten und am Beamer zeigen</div></div>
+      <button class="btn" data-nav="live">Öffnen</button>
+    </div>
     <p class="muted">${users.length} Teilnehmer registriert. Quiz freigeben = Teilnehmer können es spielen. Schließen = keine neuen Ergebnisse mehr.</p>
     ${[...catalog].reverse().map((q) => {
       const isOpen = !!open[q.id];
