@@ -171,6 +171,17 @@ input:focus { outline: none; border-color: var(--gold); }
 }
 .match .left .de { color: #CFDDD6; }
 .match .sortable { margin: 0; }
+.bucket-pool { min-height: 20px; }
+.bucket { user-select: none; -webkit-user-select: none; }
+.sortable li .tap { display: flex; gap: 6px; flex: none; }
+.sortable li .tap button { width: 40px; height: 40px; border-radius: 12px; border: 2px solid var(--gold); background: #fff; font-size: 20px; cursor: pointer; padding: 0; line-height: 1; }
+.sortable li .tap button:disabled { opacity: .4; cursor: default; }
+.buckets { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px; margin-top: 14px; }
+.bucket { border: 2px dashed var(--gold); border-radius: 16px; padding: 10px; background: rgba(226,184,100,.08); }
+.bucket-head { font-weight: 800; color: var(--gold-2); text-align: center; padding: 4px 0 2px; }
+.bucket-head .de { color: #CFDDD6; font-weight: 600; }
+.bucket-drop { margin: 8px 0 0; min-height: 72px; align-content: start; }
+.bucket-drop li { font-size: 15px; min-height: 46px; padding: 10px 12px; }
 .drag-hint { font-size: 13px; color: #A9BDB4; margin-top: 10px; text-align: center; }
 
 .feedback { margin-top: 16px; border-radius: 16px; padding: 16px; background: var(--cream); color: var(--ink); animation: pop .25s ease; }
