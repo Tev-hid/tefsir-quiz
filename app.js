@@ -35,6 +35,27 @@ function toast(msg, ms = 2600) {
   t.textContent = msg; t.hidden = false;
   clearTimeout(toast._t); toast._t = setTimeout(() => (t.hidden = true), ms);
 }
+function askConfirm(msg, okLabel) {
+  return new Promise(function (resolve) {
+    var w = document.createElement("div");
+    w.style.cssText = "position:fixed;inset:0;background:rgba(10,20,18,.55);display:flex;align-items:center;justify-content:center;padding:20px;z-index:100";
+    var box = document.createElement("div");
+    box.style.cssText = "background:#FFFCF6;border-radius:18px;padding:22px;max-width:420px;width:100%;box-shadow:0 10px 30px rgba(0,0,0,.25)";
+    var p = document.createElement("p");
+    p.style.cssText = "margin:0 0 16px;font-weight:700;color:#16302B;line-height:1.45";
+    p.textContent = msg;
+    var row = document.createElement("div");
+    row.style.cssText = "display:flex;gap:10px;justify-content:flex-end;flex-wrap:wrap";
+    var no = document.createElement("button"); no.className = "btn secondary"; no.textContent = "Abbrechen";
+    var yes = document.createElement("button"); yes.className = "btn danger"; yes.textContent = okLabel || "Ja";
+    row.append(no, yes); box.append(p, row); w.append(box);
+    var done = function (v) { w.remove(); resolve(v); };
+    no.onclick = function () { done(false); };
+    yes.onclick = function () { done(true); };
+    w.onclick = function (e) { if (e.target === w) done(false); };
+    document.body.appendChild(w);
+  });
+}
 const translit = (s) => s.normalize("NFD").replace(/[̀-ͯ]/g, "")
   .replace(/ı/g, "i").replace(/İ/g, "I").replace(/ş/g, "s").replace(/Ş/g, "S").replace(/ğ/g, "g").replace(/Ğ/g, "G");
 const nickToEmail = (nick) => `${translit(nick.trim()).toLowerCase()}@${EMAIL_DOMAIN}`;
@@ -75,7 +96,7 @@ document.addEventListener("click", (e) => {
   if (b && state.user) go(b.dataset.nav);
 });
 document.getElementById("btn-logout").addEventListener("click", async () => {
-  if (state.inQuiz && !confirm("Das Quiz läuft noch. Wirklich abmelden?")) return;
+  if (state.inQuiz && !(await askConfirm("Das Quiz läuft noch. Wirklich abmelden?", "Abmelden"))) return;
   await signOut(auth);
 });
 
@@ -587,7 +608,7 @@ async function renderAdmin() {
     renderAdmin();
   }));
   app.querySelectorAll("[data-reset]").forEach((b) => b.addEventListener("click", async () => {
-    if (!confirm(`Versuch von ${b.dataset.nick} für dieses Quiz löschen? Die Person kann dann neu spielen.`)) return;
+    if (!(await askConfirm(`Versuch von ${b.dataset.nick} für dieses Quiz löschen? Die Person kann dann neu spielen.`, "Zurücksetzen"))) return;
     const id = `${b.dataset.reset}_${b.dataset.uid}`;
     try {
       await Promise.all([deleteDoc(doc(db, "results", id)), deleteDoc(doc(db, "attempts", id))]);
