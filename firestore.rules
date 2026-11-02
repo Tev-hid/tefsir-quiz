@@ -1,0 +1,60 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() { return request.auth != null; }
+    // Admin-Nicknames als Pseudo-E-Mail (muss zu settings.js passen)
+    function isAdmin() {
+      return signedIn() && request.auth.token.email in ['sebahaddin@tefsir-quiz.app'];
+    }
+    function quizOpen(quizId) {
+      return get(/databases/$(database)/documents/quizState/$(quizId)).data.open == true;
+    }
+
+    // Profile: jeder Angemeldete darf lesen, jeder legt nur sein eigenes an
+    match /users/{uid} {
+      allow read: if signedIn();
+      allow create: if signedIn() && request.auth.uid == uid
+        && request.resource.data.keys().hasOnly(['nick', 'createdAt'])
+        && request.resource.data.nick is string
+        && request.resource.data.nick.size() >= 3
+        && request.resource.data.nick.size() <= 20;
+      allow update, delete: if isAdmin();
+    }
+
+    // Quiz freigeben/schließen: nur Admin
+    match /quizState/{quizId} {
+      allow read: if signedIn();
+      allow write: if isAdmin();
+    }
+
+    // Laufender Versuch: nur der eigene, nur solange kein Ergebnis existiert
+    match /attempts/{id} {
+      allow read: if signedIn() && (resource == null || resource.data.uid == request.auth.uid || isAdmin());
+      allow create: if signedIn()
+        && request.resource.data.uid == request.auth.uid
+        && id == request.resource.data.quizId + '_' + request.auth.uid
+        && quizOpen(request.resource.data.quizId);
+      allow update: if signedIn()
+        && resource.data.uid == request.auth.uid
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.quizId == resource.data.quizId
+        && !exists(/databases/$(database)/documents/results/$(id));
+      allow delete: if isAdmin();
+    }
+
+    // Ergebnisse: alle Angemeldeten sehen sie (Liga), jeder schreibt genau einmal sein eigenes
+    match /results/{id} {
+      allow read: if signedIn();
+      allow create: if signedIn()
+        && request.resource.data.uid == request.auth.uid
+        && id == request.resource.data.quizId + '_' + request.auth.uid
+        && request.resource.data.score is int
+        && request.resource.data.score >= 0
+        && request.resource.data.score <= 10000
+        && quizOpen(request.resource.data.quizId);
+      allow update: if false;
+      allow delete: if isAdmin();
+    }
+  }
+}
