@@ -1,0 +1,212 @@
+[
+  {
+    "group": "Ders 2 · Bakara 6–20",
+    "items": [
+      {
+        "q": {
+          "tr": "Isınma: Geçen derste muttakîlerin kaç vasfını saydık?",
+          "de": "Zum Aufwärmen: Wie viele Eigenschaften der Muttakîn haben wir letztes Mal gezählt?"
+        },
+        "options": [
+          "3",
+          "5",
+          "7",
+          "10"
+        ],
+        "answer": 1,
+        "note": "Gayba iman · namaz · infak · önceki kitaplara iman · âhirete yakîn."
+      },
+      {
+        "q": {
+          "tr": "Sizce insanı hakikati görmekten en çok ne alıkoyar?",
+          "de": "Was hält einen Menschen am meisten davon ab, die Wahrheit zu sehen?"
+        },
+        "options": [
+          {
+            "tr": "Kibir",
+            "de": "Hochmut"
+          },
+          {
+            "tr": "Bilgisizlik",
+            "de": "Unwissen"
+          },
+          {
+            "tr": "Alışkanlık ve çevre",
+            "de": "Gewohnheit und Umfeld"
+          },
+          {
+            "tr": "Dünya sevgisi",
+            "de": "Liebe zur Welt"
+          }
+        ],
+        "note": "6. âyete geçiş: “Uyarsan da uyarmasan da birdir.” Mesele bilgisizlik değil, bilerek yüz çevirmek."
+      },
+      {
+        "q": {
+          "tr": "“Allah kalplerini mühürledi” (7). Bu, onların seçme şansı yoktu demek mi?",
+          "de": "„Allah hat ihre Herzen versiegelt“ (7). Heißt das, sie hatten keine Wahl?"
+        },
+        "options": [
+          {
+            "tr": "Evet, kaderleri buydu",
+            "de": "Ja, das war ihr Schicksal"
+          },
+          {
+            "tr": "Hayır, önce kendileri yüz çevirdi; mühür bunun sonucu",
+            "de": "Nein, sie haben sich zuerst abgewandt; das Siegel ist die Folge"
+          },
+          {
+            "tr": "Emin değilim",
+            "de": "Ich bin mir nicht sicher"
+          }
+        ],
+        "answer": 1,
+        "note": "Mühür, ısrarla seçilen yolun sonucudur. Sonuç başlangıçtaki tercihe göre gelir."
+      },
+      {
+        "q": {
+          "tr": "Bir topluluk için hangisi daha tehlikeli?",
+          "de": "Was ist für eine Gemeinschaft gefährlicher?"
+        },
+        "options": [
+          {
+            "tr": "Açık düşman",
+            "de": "Der offene Feind"
+          },
+          {
+            "tr": "İçerideki ikiyüzlü",
+            "de": "Der Heuchler in den eigenen Reihen"
+          },
+          {
+            "tr": "İkisi de aynı",
+            "de": "Beide gleich"
+          }
+        ],
+        "note": "Kur’an kâfirlere 2, münafıklara 13 âyet ayırıyor. Neden?"
+      },
+      {
+        "q": {
+          "tr": "Münafık sonunda kimi kandırır? (9)",
+          "de": "Wen betrügt der Heuchler am Ende wirklich? (9)"
+        },
+        "options": [
+          {
+            "tr": "Allah’ı",
+            "de": "Allah"
+          },
+          {
+            "tr": "Mü’minleri",
+            "de": "Die Gläubigen"
+          },
+          {
+            "tr": "Kendisini",
+            "de": "Sich selbst"
+          },
+          {
+            "tr": "Kimseyi",
+            "de": "Niemanden"
+          }
+        ],
+        "answer": 2,
+        "note": "“Onlar ancak kendilerini aldatırlar da farkında olmazlar.”"
+      },
+      {
+        "q": {
+          "tr": "“Kalplerinde bir hastalık var” (10). Sizce bu hangi hastalık?",
+          "de": "„In ihren Herzen ist eine Krankheit“ (10). Welche Krankheit ist wohl gemeint?"
+        },
+        "options": [
+          {
+            "tr": "Şüphe",
+            "de": "Zweifel"
+          },
+          {
+            "tr": "Haset",
+            "de": "Neid"
+          },
+          {
+            "tr": "Kibir",
+            "de": "Hochmut"
+          },
+          {
+            "tr": "Korku",
+            "de": "Angst"
+          }
+        ],
+        "note": "Müfessirlerin çoğu şüphe ve nifak der; kibir ve haset de sayılır. Hastalık büyür: “Allah da hastalıklarını artırdı.”"
+      },
+      {
+        "q": {
+          "tr": "Dürüst ol: Haksız olduğunu kendine itiraf etmek zor mu?",
+          "de": "Ehrlich: Fällt es dir schwer, dir selbst einzugestehen, dass du im Unrecht bist?"
+        },
+        "options": [
+          {
+            "tr": "Çok zor",
+            "de": "Sehr schwer"
+          },
+          {
+            "tr": "Bazen",
+            "de": "Manchmal"
+          },
+          {
+            "tr": "Kolay",
+            "de": "Leicht"
+          }
+        ],
+        "note": "11–12: “Biz ancak ıslah edicileriz.” Bozgunculuk yapıp kendini iyi sanmak."
+      },
+      {
+        "q": {
+          "tr": "Tahmin et: Allah münafıkları neye benzetiyor? (17–20)",
+          "de": "Rate mal: Womit vergleicht Allah die Heuchler? (17–20)"
+        },
+        "options": [
+          {
+            "tr": "Sönen bir ateşe",
+            "de": "Mit einem Feuer, das erlischt"
+          },
+          {
+            "tr": "Gök gürültülü bir sağanağa",
+            "de": "Mit einem Gewitterregen"
+          },
+          {
+            "tr": "İkisine de",
+            "de": "Mit beidem"
+          },
+          {
+            "tr": "Kurumuş bir ağaca",
+            "de": "Mit einem verdorrten Baum"
+          }
+        ],
+        "answer": 2,
+        "note": "İki misal: ateş yakan (17–18) ve karanlıkta sağanak, şimşek (19–20)."
+      },
+      {
+        "q": {
+          "tr": "Elini kalbine koy: Hiç sırf başkaları görsün diye iyi bir şey yaptın mı?",
+          "de": "Hand aufs Herz: Hast du schon mal etwas Gutes vor allem für die Zuschauer getan?"
+        },
+        "options": [
+          {
+            "tr": "Evet, sık",
+            "de": "Ja, oft"
+          },
+          {
+            "tr": "Bazen",
+            "de": "Manchmal"
+          },
+          {
+            "tr": "Nadiren",
+            "de": "Selten"
+          },
+          {
+            "tr": "Hiç",
+            "de": "Nie"
+          }
+        ],
+        "note": "Anonim! Riya nifakın küçük kardeşidir. Hz. Ömer bile Huzeyfe’ye “Beni münafıklar arasında saydı mı?” diye sorardı."
+      }
+    ]
+  }
+]
