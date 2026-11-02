@@ -150,7 +150,7 @@ async function startPoll(p) {
 async function setState(st) {
   if (!live) return;
   try {
-    if (st === "idle") await setDoc(doc(ctx.db, "live", "current"), { state: "idle", runId: null, endedAt: Date.now() });
+    if (st === "idle") await setDoc(doc(ctx.db, "live", "current"), { state: "idle", runId: null, src: live.src || null, endedAt: Date.now() });
     else await setDoc(doc(ctx.db, "live", "current"), { ...live, state: st });
   } catch (e) { ctx.toast("Fehler: " + e.message, 5000); }
 }
@@ -180,7 +180,7 @@ export async function renderLiveAdmin() {
         const head = p.group !== lastGroup ? `<div class="eyebrow" style="margin:10px 0 4px">${esc(p.group)}</div>` : "";
         lastGroup = p.group;
         return `${head}<div class="poll-row" data-src="${p.src}">
-          <div style="flex:1;min-width:0"><b>${esc(plain(p.q))}</b>
+          <div style="flex:1;min-width:0"><b>${list.indexOf(p) + 1}. ${esc(plain(p.q))}</b>
             <div class="muted small">${p.options.map((o, i) => `${LETTERS[i]}) ${esc(plain(o))}${p.answer === i ? " ✓" : ""}`).join(" · ")}</div></div>
           <button class="btn small" data-start="${p.src}">Starten</button></div>`;
       }).join("") || `<p class="muted">Keine vorbereiteten Umfragen gefunden.</p>`}</div>
@@ -243,6 +243,7 @@ export function renderBeamer() {
     <div class="bm-controls">
       <button data-b="reveal" title="R">Ergebnis <kbd>R</kbd></button>
       <button data-b="next" title="N">Nächste <kbd>N</kbd></button>
+      <span class="bm-keys">Umfrage Nr. <kbd>1</kbd>–<kbd>9</kbd></span>
       <button data-b="end">Beenden</button>
       <button data-b="full" title="F">Vollbild <kbd>F</kbd></button>
       <button data-b="back">✕ Zurück</button>
@@ -264,6 +265,8 @@ export function renderBeamer() {
     if (k === "r" || k === " ") { e.preventDefault(); toggleReveal(); }
     if (k === "n" || k === "arrowright") nextPoll();
     if (k === "f") toggleFull();
+    // Zifferntaste 1–9 startet direkt die vorbereitete Umfrage mit dieser Nummer
+    if (/^[1-9]$/.test(k)) loadPolls().then((list) => { const p = list[+k - 1]; if (p) startPoll(p); else ctx.toast(`Keine Umfrage Nr. ${k}.`); });
     if (k === "escape" && !document.fullscreenElement) leaveBeamer();
   };
   document.addEventListener("keydown", keyHandler);
