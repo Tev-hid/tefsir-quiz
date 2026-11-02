@@ -1,0 +1,235 @@
+{
+  "id": "w01-bakara-1-5",
+  "week": "Woche 1",
+  "ayat": "Bakara 1–5",
+  "title": { "tr": "Muttakîler kimdir?", "de": "Wer sind die Gottesfürchtigen?" },
+  "questions": [
+    {
+      "type": "mc",
+      "q": { "tr": "Bakara Sûresi kaç âyettir?", "de": "Wie viele Verse hat die Sure al-Baqara?" },
+      "options": [
+        { "text": "286" },
+        { "text": "114" },
+        { "text": "200" },
+        { "text": "176" }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "Bakara 286 âyetle Kur’an’ın en uzun sûresidir. (114, Kur’an’daki sûre sayısıdır.)",
+        "de": "Al-Baqara ist mit 286 Versen die längste Sure des Korans. (114 ist die Anzahl der Suren.)"
+      }
+    },
+    {
+      "type": "tf",
+      "q": { "tr": "Bakara Sûresi tek seferde, bir gecede indi.", "de": "Die Sure al-Baqara wurde auf einmal, in einer Nacht offenbart." },
+      "answer": false,
+      "explain": {
+        "tr": "Yanlış. Yaklaşık 9–10 yıla yayılarak parça parça indi; son âyeti (281) Veda Haccı civarında nazil oldu (Taberî).",
+        "de": "Falsch. Sie wurde über etwa 9–10 Jahre Stück für Stück offenbart; ihr letzter Vers (281) kam um die Zeit der Abschiedspilgerfahrt (aṭ-Ṭabarī)."
+      }
+    },
+    {
+      "type": "match",
+      "time": 45,
+      "q": { "tr": "Bakara’nın ilk sayfası: Her zümreye kaç âyet ayrıldı? Eşleştir!", "de": "Die erste Seite von al-Baqara: Wie viele Verse bekommt jede Gruppe? Ordne zu!" },
+      "pairs": [
+        { "left": { "tr": "Müminler", "de": "Gläubige" }, "right": { "tr": "4 âyet", "de": "4 Verse" } },
+        { "left": { "tr": "Kâfirler", "de": "Ungläubige" }, "right": { "tr": "2 âyet", "de": "2 Verse" } },
+        { "left": { "tr": "Münafıklar", "de": "Heuchler" }, "right": { "tr": "13 âyet", "de": "13 Verse" } }
+      ],
+      "explain": {
+        "tr": "İbn Kesîr: Münafıklara en çok âyet ayrıldı, çünkü onların fitnesi ve Müslümanlara verdikleri zarar daha büyüktü.",
+        "de": "Ibn Kaṯīr: Den Heuchlern wurden die meisten Verse gewidmet, weil ihre Zwietracht und ihr Schaden für die Muslime größer waren."
+      }
+    },
+    {
+      "type": "mc",
+      "q": { "tr": "Medine’de liderliğini kaybedip münafıkların başı olan kimdir?", "de": "Wer verlor in Medina seine Führungsrolle und wurde zum Anführer der Heuchler?" },
+      "options": [
+        { "text": "Abdullah b. Übey b. Selûl" },
+        { "text": { "tr": "Ebû Cehil", "de": "Abū Ǧahl" } },
+        { "text": { "tr": "Ebû Leheb", "de": "Abū Lahab" } },
+        { "text": { "tr": "Velîd b. Muğîre", "de": "al-Walīd ibn al-Muġīra" } }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "Evs ve Hazrec Müslüman olunca “kral” olma hayali biten Abdullah b. Übey, görünüşte Müslüman oldu ama kalbinde kin vardı (İbn İshak / İbn Hişam, Kurtubî). Diğerleri Mekke’deki müşriklerdendir.",
+        "de": "Als die Stämme Aws und Ḫazraǧ Muslime wurden, war sein Traum vom „Königtum“ vorbei. Er wurde äußerlich Muslim, doch in seinem Herzen war Groll. Die anderen waren Götzendiener in Mekka."
+      }
+    },
+    {
+      "type": "mc",
+      "q": { "tr": "Seyyid Kutub’a göre Bakara Sûresi hangi iki eksen etrafında döner?", "de": "Um welche zwei Achsen kreist al-Baqara laut Sayyid Quṭb?" },
+      "options": [
+        { "text": { "tr": "İsrailoğulları ve ilk İslam cemaati", "de": "Die Kinder Israels und die erste muslimische Gemeinschaft" } },
+        { "text": { "tr": "Mekke ve Medine", "de": "Mekka und Medina" } },
+        { "text": { "tr": "Namaz ve oruç", "de": "Gebet und Fasten" } },
+        { "text": { "tr": "Cennet ve cehennem", "de": "Paradies und Hölle" } }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "İsrailoğulları’nın davete karşı tutumu ve yeni Müslüman cemaatin eğitimi. Mesaj: “Onların akıbetine düşmeyin!” Kıssaları “onlar” değil “biz” diye okumalıyız.",
+        "de": "Die Haltung der Kinder Israels zur Botschaft und die Erziehung der jungen muslimischen Gemeinschaft. Die Botschaft: „Erleidet nicht ihr Schicksal!“ Wir lesen die Geschichten also als „wir“, nicht als „sie“."
+      }
+    },
+    {
+      "type": "mc",
+      "q": { "tr": "Fî Zılâl’e göre “Elif Lâm Mîm” neye işaret eder?", "de": "Worauf weisen die Buchstaben „Alif Lām Mīm“ laut Fī Ẓilāl hin?" },
+      "arabic": "الٓمٓ",
+      "options": [
+        { "text": { "tr": "Arapların kendi harfleriyle bir meydan okumaya: Haydi benzerini getirin!", "de": "Auf eine Herausforderung mit den eigenen Buchstaben der Araber: Bringt etwas Gleichwertiges!" } },
+        { "text": { "tr": "Sadece âlimlerin çözebileceği gizli bir şifreye", "de": "Auf einen Geheimcode, den nur Gelehrte entschlüsseln können" } },
+        { "text": { "tr": "Sûredeki âyet sayısına", "de": "Auf die Anzahl der Verse der Sure" } },
+        { "text": { "tr": "Bir meleğin ismine", "de": "Auf den Namen eines Engels" } }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "Kur’an anlaşılmaz bir şifre değil. Malzeme aynı harfler; ama kimse benzerini getiremez. İbn Kesîr de bu görüşü nakleder: Bu harflerden sonra hemen hemen hep Kitab’ın zikri gelir.",
+        "de": "Der Koran ist kein unverständlicher Code. Das Material sind dieselben Buchstaben – und doch kann niemand Gleichwertiges bringen. Auch Ibn Kaṯīr überliefert diese Ansicht: Fast immer folgt auf diese Buchstaben die Erwähnung des Buches."
+      }
+    },
+    {
+      "type": "mc",
+      "q": { "tr": "Fâtiha’daki hangi duanın cevabı Bakara’nın 2. âyetinde gelir?", "de": "Auf welches Bittgebet aus der Fātiḥa antwortet Vers 2 von al-Baqara?" },
+      "options": [
+        { "text": { "tr": "İhdine’s-sırâta’l-müstakîm – Bizi dosdoğru yola ilet", "de": "Ihdinā ṣ-ṣirāṭa l-mustaqīm – Leite uns den geraden Weg" } },
+        { "text": { "tr": "Rabbenâ âtinâ fi’d-dünyâ haseneten – Rabbimiz, bize dünyada iyilik ver", "de": "Rabbanā ātinā fi d-dunyā ḥasana – Unser Herr, gib uns im Diesseits Gutes" } },
+        { "text": { "tr": "Rabbi zidnî ilmâ – Rabbim, ilmimi artır", "de": "Rabbi zidnī ʿilmā – Mein Herr, mehre mein Wissen" } },
+        { "text": { "tr": "Rabbi’ğfir lî – Rabbim, beni bağışla", "de": "Rabbi ġfir lī – Mein Herr, vergib mir" } }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "Fahreddin er-Râzî: Kul “Bizi dosdoğru yola ilet” dedi; Allah da “İşte o Kitap… muttakîler için hidayettir” buyurarak cevap verdi.",
+        "de": "Faḫr ad-Dīn ar-Rāzī: Der Diener bat: „Leite uns den geraden Weg“ – und Allah antwortete: „Dies ist das Buch … eine Rechtleitung für die Gottesfürchtigen.“"
+      }
+    },
+    {
+      "type": "mc",
+      "image": "img/yol.svg",
+      "imageAlt": "Dikenli bir yol",
+      "q": { "tr": "Hz. Ömer “Takva nedir?” diye sorunca Übey b. Kâ’b ona ne sordu?", "de": "Als ʿUmar fragte „Was ist Taqwā?“, was fragte Ubayy ibn Kaʿb zurück?" },
+      "options": [
+        { "text": { "tr": "Hiç dikenli bir yolda yürüdün mü?", "de": "Bist du schon einmal einen Dornenweg gegangen?" } },
+        { "text": { "tr": "Hiç denizde yolculuk ettin mi?", "de": "Bist du schon einmal übers Meer gereist?" } },
+        { "text": { "tr": "Hiç gece boyunca namaz kıldın mı?", "de": "Hast du schon einmal die ganze Nacht gebetet?" } },
+        { "text": { "tr": "Hiç ateş yaktın mı?", "de": "Hast du schon einmal ein Feuer angezündet?" } }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "Ömer: “Paçalarımı sıvadım, dikkat ettim.” Übey: “İşte takva budur.” Takva hayattan kaçmak değil, dikenli yolda dikkatle yürümektir.",
+        "de": "ʿUmar: „Ich habe meine Kleidung hochgekrempelt und gut aufgepasst.“ Ubayy: „Das ist Taqwā.“ Taqwā heißt nicht, dem Leben zu entfliehen, sondern achtsam auf dem Dornenweg zu gehen."
+      }
+    },
+    {
+      "type": "order",
+      "time": 60,
+      "q": { "tr": "Muttakînin vasıflarını Bakara 3–4’teki sıraya göre diz!", "de": "Ordne die Eigenschaften der Gottesfürchtigen in der Reihenfolge von Vers 3–4!" },
+      "items": [
+        { "tr": "Gayba iman", "de": "Glaube an das Verborgene" },
+        { "tr": "Namazı ikâme", "de": "Das Gebet verrichten" },
+        { "tr": "İnfak", "de": "Spenden" },
+        { "tr": "Bütün vahye iman", "de": "Glaube an alle Offenbarung" },
+        { "tr": "Âhirete yakîn", "de": "Feste Gewissheit über das Jenseits" }
+      ],
+      "explain": {
+        "tr": "Üçü kalpte (gayba iman, bütün vahye iman, âhirete yakîn), ikisi bedende ve malda (namaz, infak). Takva hem içte hem dışta.",
+        "de": "Drei im Herzen (Glaube an das Verborgene, an alle Offenbarung, Gewissheit über das Jenseits), zwei in Körper und Besitz (Gebet, Spenden). Taqwā ist innen und außen."
+      }
+    },
+    {
+      "type": "mc",
+      "image": "img/arac-batiyor.svg",
+      "imageAlt": "Denizde batan bir araba",
+      "q": { "tr": "Akıl bir arabaysa ve gayb bir denizse: Gaybın denizinde neye bineriz?", "de": "Wenn der Verstand ein Auto ist und das Verborgene ein Meer: Womit fahren wir auf dem Meer des Verborgenen?" },
+      "options": [
+        { "text": { "tr": "Vahyin gemisine: Kur’an ve sahih sünnet", "de": "Auf dem Schiff der Offenbarung: Koran und authentische Sunna" } },
+        { "text": { "tr": "Yine aklın arabasına: Akıl her şeyi çözer", "de": "Wieder auf dem Auto des Verstandes: Er löst alles" } },
+        { "text": { "tr": "Bir şeyhin rüyasına ve keşfine", "de": "Auf den Träumen und Eingebungen eines Scheichs" } },
+        { "text": { "tr": "Hiçbir şeye: Gayb hakkında konuşulmaz", "de": "Auf gar nichts: Über das Verborgene spricht man nicht" } }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "Seyyid Kutub: Akıl bu saha için yaratılmadı; onu orada kullanmak hüsrandır. Ama iki uca dikkat: Ne her şeyi akılla ölçmek, ne de vahyin yerine bir kişinin sözünü koymak.",
+        "de": "Sayyid Quṭb: Der Verstand ist für dieses Gebiet nicht geschaffen; ihn dort einzusetzen endet in Enttäuschung. Aber Vorsicht vor beiden Extremen: weder alles mit dem Verstand messen noch das Wort eines Menschen an die Stelle der Offenbarung setzen."
+      }
+    },
+    {
+      "type": "match",
+      "time": 60,
+      "q": { "tr": "Kelimeleri anlamlarıyla eşleştir!", "de": "Ordne die Begriffe ihrer Bedeutung zu!" },
+      "pairs": [
+        { "left": "Takva", "right": { "tr": "Sakınmak, korunmak", "de": "Sich hüten, sich schützen" } },
+        { "left": "Gayb", "right": { "tr": "Görünmeyen, duyuların ötesi", "de": "Das Verborgene, jenseits der Sinne" } },
+        { "left": "İnfak", "right": { "tr": "Allah yolunda vermek", "de": "Auf Allahs Weg ausgeben" } },
+        { "left": "Felah", "right": { "tr": "Kurtuluş, muradına ermek", "de": "Erfolg, Errettung" } }
+      ],
+      "explain": {
+        "tr": "Takva “vikâye” (kalkan, korunma) kökündendir. Felah, toprağı yarıp ürün almakla ilgilidir: Ezandaki “Hayye ale’l-felâh” da buradan.",
+        "de": "Taqwā kommt von „wiqāya“ (Schutz, Schild). Falāḥ hängt mit dem Aufbrechen der Erde und der Ernte zusammen – daher auch „Ḥayya ʿala l-falāḥ“ im Gebetsruf."
+      }
+    },
+    {
+      "type": "mc",
+      "arabic": "يُقِيمُونَ الصَّلَاةَ",
+      "q": { "tr": "“Yukîmûne’s-salâh” ifadesinde vurgulanan nedir?", "de": "Was wird mit „yuqīmūna ṣ-ṣalāh“ betont?" },
+      "options": [
+        { "text": { "tr": "Namazı ayakta tutmak: hakkını vererek, devamlı ve yalnız Allah için", "de": "Das Gebet aufrechterhalten: gewissenhaft, beständig und nur für Allah" } },
+        { "text": { "tr": "Namazı sadece cemaatle kılmak", "de": "Nur in der Gemeinschaft beten" } },
+        { "text": { "tr": "Namazı ayakta değil oturarak kılmak", "de": "Im Sitzen statt im Stehen beten" } },
+        { "text": { "tr": "Sadece cuma namazını kılmak", "de": "Nur das Freitagsgebet verrichten" } }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "Âyet “kılarlar” değil “ikâme ederler” diyor: Bir binayı ayakta tutmak gibi. Şekil + ruh birlikte.",
+        "de": "Der Vers sagt nicht nur „sie beten“, sondern „sie halten das Gebet aufrecht“ – wie man ein Gebäude instand hält. Form und Geist gehören zusammen."
+      }
+    },
+    {
+      "type": "mc",
+      "q": { "tr": "“Malda zekâttan başka da hak vardır” hadisi bize ne öğretir?", "de": "Was lehrt uns der Hadith „Im Besitz gibt es noch ein Recht außer der Zakāt“?" },
+      "options": [
+        { "text": { "tr": "Zekât alt sınırdır; muttakî ihtiyaç sahiplerine ayrıca da verir", "de": "Die Zakāt ist das Minimum; der Gottesfürchtige gibt Bedürftigen zusätzlich" } },
+        { "text": { "tr": "Zekât verince başka hiçbir sorumluluk kalmaz", "de": "Nach der Zakāt bleibt keine weitere Verantwortung" } },
+        { "text": { "tr": "Mal sahibine aittir, Allah’a değil", "de": "Der Besitz gehört dem Besitzer, nicht Allah" } },
+        { "text": { "tr": "Sadaka sadece Ramazan’da verilir", "de": "Ṣadaqa gibt man nur im Ramaḍān" } }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "Fâtıma bint Kays’tan, Tirmizî rivayeti. Âyet de “bizim onlara verdiğimizden” diyor: Biz sahip değil, emanetçiyiz.",
+        "de": "Überliefert von Fāṭima bint Qais bei at-Tirmiḏī. Auch der Vers sagt „von dem, was Wir ihnen gegeben haben“: Wir sind nicht Eigentümer, sondern Treuhänder."
+      }
+    },
+    {
+      "type": "mc",
+      "image": "img/ahiret-sis.svg",
+      "imageAlt": "Ötesi sisle kapalı bir ağaç",
+      "q": { "tr": "Âhirete inanmayan ağacı böyle görür: Ötesi sis. Âhirete yakînen inanan ne görür?", "de": "Wer nicht ans Jenseits glaubt, sieht den Baum so: dahinter nur Nebel. Was sieht der, der fest ans Jenseits glaubt?" },
+      "options": [
+        { "text": { "tr": "Aynı ağacı ve ötesindeki daha büyük nimetlere giden yolu", "de": "Denselben Baum – und den Weg zu viel größeren Gaben dahinter" } },
+        { "text": { "tr": "Ağaca hiç bakmaz, dünyadan tamamen kaçar", "de": "Er schaut den Baum gar nicht an und flieht vor der Welt" } },
+        { "text": { "tr": "Sadece ağacı görür, başka hiçbir şeyi", "de": "Nur den Baum, sonst nichts" } },
+        { "text": { "tr": "Ağacı değil, sadece sisi görür", "de": "Nicht den Baum, nur den Nebel" } }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "Âhirete yakîn dünyayı reddetmek değildir: Muttakî de meyveden yer ama ağaçta takılıp kalmaz. Dünya bir geçit, hedef değil.",
+        "de": "Gewissheit über das Jenseits heißt nicht, die Welt abzulehnen: Auch der Gottesfürchtige isst vom Baum, bleibt aber nicht an ihm hängen. Die Welt ist ein Durchgang, kein Ziel."
+      }
+    },
+    {
+      "type": "mc",
+      "q": { "tr": "Hz. Peygamber göğsünü üç kez göstererek ne buyurdu?", "de": "Was sagte der Prophet, als er dreimal auf seine Brust zeigte?" },
+      "options": [
+        { "text": { "tr": "Takva işte buradadır", "de": "Die Taqwā ist hier" } },
+        { "text": { "tr": "Cennet işte buradadır", "de": "Das Paradies ist hier" } },
+        { "text": { "tr": "Hikmet işte buradadır", "de": "Die Weisheit ist hier" } },
+        { "text": { "tr": "Güç işte buradadır", "de": "Die Kraft ist hier" } }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "“Et-takvâ hâhunâ” (Müslim, Birr 32). Takvanın kökü kalpte; ama kalpteki takva namazla bedene, infakla mala taşar.",
+        "de": "„At-taqwā hāhunā“ (Muslim, Birr 32). Die Wurzel der Taqwā ist im Herzen – doch sie zeigt sich im Gebet am Körper und beim Spenden am Besitz."
+      }
+    }
+  ]
+}
