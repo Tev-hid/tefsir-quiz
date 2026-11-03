@@ -4,183 +4,211 @@
     "items": [
       {
         "q": {
-          "tr": "Isınma: Geçen derste muttakîlerin kaç vasfını saydık?",
-          "de": "Zum Aufwärmen: Wie viele Eigenschaften der Muttakîn haben wir letztes Mal gezählt?"
-        },
-        "options": [
-          "3",
-          "5",
-          "7",
-          "10"
-        ],
-        "answer": 1,
-        "note": "Gayba iman · namaz · infak · önceki kitaplara iman · âhirete yakîn."
-      },
-      {
-        "q": {
-          "tr": "Sizce insanı hakikati görmekten en çok ne alıkoyar?",
-          "de": "Was hält einen Menschen am meisten davon ab, die Wahrheit zu sehen?"
+          "tr": "Bir arkadaş: “Ben sadece gördüğüme inanırım.” 3. âyete göre ona asıl hangi vasıf eksik?",
+          "de": "Ein Freund sagt: „Ich glaube nur, was ich sehe.“ Welche Eigenschaft aus Vers 3 fehlt ihm eigentlich?"
         },
         "options": [
           {
-            "tr": "Kibir",
-            "de": "Hochmut"
+            "tr": "Hiçbiri; akla uygun davranıyor",
+            "de": "Keine, er handelt nur vernünftig"
           },
           {
-            "tr": "Bilgisizlik",
-            "de": "Unwissen"
+            "tr": "Âhirete yakîn",
+            "de": "Die Gewissheit über das Jenseits"
           },
           {
-            "tr": "Alışkanlık ve çevre",
-            "de": "Gewohnheit und Umfeld"
+            "tr": "Gayba iman",
+            "de": "Der Glaube an das Verborgene"
           },
           {
-            "tr": "Dünya sevgisi",
-            "de": "Liebe zur Welt"
-          }
-        ],
-        "note": "6. âyete geçiş: “Uyarsan da uyarmasan da birdir.” Mesele bilgisizlik değil, bilerek yüz çevirmek."
-      },
-      {
-        "q": {
-          "tr": "“Allah kalplerini mühürledi” (7). Bu, onların seçme şansı yoktu demek mi?",
-          "de": "„Allah hat ihre Herzen versiegelt“ (7). Heißt das, sie hatten keine Wahl?"
-        },
-        "options": [
-          {
-            "tr": "Evet, kaderleri buydu",
-            "de": "Ja, das war ihr Schicksal"
-          },
-          {
-            "tr": "Hayır, önce kendileri yüz çevirdi; mühür bunun sonucu",
-            "de": "Nein, sie haben sich zuerst abgewandt; das Siegel ist die Folge"
-          },
-          {
-            "tr": "Emin değilim",
-            "de": "Ich bin mir nicht sicher"
-          }
-        ],
-        "answer": 1,
-        "note": "Mühür, ısrarla seçilen yolun sonucudur. Sonuç başlangıçtaki tercihe göre gelir."
-      },
-      {
-        "q": {
-          "tr": "Bir topluluk için hangisi daha tehlikeli?",
-          "de": "Was ist für eine Gemeinschaft gefährlicher?"
-        },
-        "options": [
-          {
-            "tr": "Açık düşman",
-            "de": "Der offene Feind"
-          },
-          {
-            "tr": "İçerideki ikiyüzlü",
-            "de": "Der Heuchler in den eigenen Reihen"
-          },
-          {
-            "tr": "İkisi de aynı",
-            "de": "Beide gleich"
-          }
-        ],
-        "note": "Kur’an kâfirlere 2, münafıklara 13 âyet ayırıyor. Neden?"
-      },
-      {
-        "q": {
-          "tr": "Münafık sonunda kimi kandırır? (9)",
-          "de": "Wen betrügt der Heuchler am Ende wirklich? (9)"
-        },
-        "options": [
-          {
-            "tr": "Allah’ı",
-            "de": "Allah"
-          },
-          {
-            "tr": "Mü’minleri",
-            "de": "Die Gläubigen"
-          },
-          {
-            "tr": "Kendisini",
-            "de": "Sich selbst"
-          },
-          {
-            "tr": "Kimseyi",
-            "de": "Niemanden"
+            "tr": "Namaz",
+            "de": "Das Gebet"
           }
         ],
         "answer": 2,
-        "note": "“Onlar ancak kendilerini aldatırlar da farkında olmazlar.”"
+        "note": "Âhiret de gaybın bir parçası; asıl eksik olan daha geniş: gayba iman. Üstelik kendisi de akla, sevgiye, yer çekimine görmeden inanıyor. Akıl arabası sahile kadar götürür, ötesi vahiy gemisi."
       },
       {
         "q": {
-          "tr": "“Kalplerinde bir hastalık var” (10). Sizce bu hangi hastalık?",
-          "de": "„In ihren Herzen ist eine Krankheit“ (10). Welche Krankheit ist wohl gemeint?"
+          "tr": "6. âyet: “Uyarsan da uyarmasan da birdir.” Peki Peygamber ﷺ neden herkesi uyarmaya devam etti?",
+          "de": "Vers 6: „Gleich ist es, ob du sie warnst oder nicht.“ Warum hat der Prophet ﷺ trotzdem weiter alle gewarnt?"
         },
         "options": [
           {
-            "tr": "Şüphe",
-            "de": "Zweifel"
+            "tr": "Kimin bu gruptan olduğu bilinmiyordu; âyet bir isim listesi değil, bir tavrı anlatır",
+            "de": "Niemand wusste, wer dazugehört: Der Vers beschreibt eine Haltung, keine Namensliste"
           },
           {
-            "tr": "Haset",
-            "de": "Neid"
+            "tr": "Kâfirleri utandırmak için",
+            "de": "Um die Ungläubigen bloßzustellen"
           },
           {
-            "tr": "Kibir",
-            "de": "Hochmut"
+            "tr": "Âyet daha sonra indi",
+            "de": "Der Vers kam erst später herab"
           },
           {
-            "tr": "Korku",
-            "de": "Angst"
+            "tr": "Uyarı aslında sadece müminler içindi",
+            "de": "Die Warnung galt eigentlich nur den Gläubigen"
           }
         ],
-        "note": "Müfessirlerin çoğu şüphe ve nifak der; kibir ve haset de sayılır. Hastalık büyür: “Allah da hastalıklarını artırdı.”"
+        "answer": 0,
+        "note": "Hz. Ömer, Hâlid b. Velîd… önce inkâr edip sonra iman ettiler. Âyet, inadında ısrar edip küfür üzere ölenleri anlatır. Ayrıca tebliğ görevdir; sonuç Allah’a aittir."
       },
       {
         "q": {
-          "tr": "Dürüst ol: Haksız olduğunu kendine itiraf etmek zor mu?",
-          "de": "Ehrlich: Fällt es dir schwer, dir selbst einzugestehen, dass du im Unrecht bist?"
+          "tr": "Allah kalplerini mühürlediyse, inkârlarından hâlâ sorumlular mı?",
+          "de": "Wenn Allah ihre Herzen versiegelt hat: Sind sie für ihren Unglauben dann noch verantwortlich?"
         },
         "options": [
           {
-            "tr": "Çok zor",
-            "de": "Sehr schwer"
+            "tr": "Mühre kadar evet, mühürden sonra hayır",
+            "de": "Bis zum Siegel ja, danach nicht mehr"
           },
           {
-            "tr": "Bazen",
-            "de": "Manchmal"
+            "tr": "Evet, çünkü mühür kendi seçimlerinin sonucu",
+            "de": "Ja, denn das Siegel ist die Folge ihrer eigenen Wahl"
           },
           {
-            "tr": "Kolay",
-            "de": "Leicht"
+            "tr": "Sadece mühürlendiklerinin farkındaysalar",
+            "de": "Nur wenn sie merken, dass sie versiegelt sind"
+          },
+          {
+            "tr": "Hayır, artık başka türlü yapamazlar",
+            "de": "Nein, sie können ja nicht mehr anders"
           }
         ],
-        "note": "11–12: “Biz ancak ıslah edicileriz.” Bozgunculuk yapıp kendini iyi sanmak."
+        "answer": 1,
+        "note": "Seyyid Kutub: Mühür bir cezadır; Kur’an’a yüz çevirdikleri için. Önce insan kapıyı kapatır, Allah o kapıyı mühürler. “Mühre kadar evet, sonra hayır” şıkkı sinsi bir tuzak: Mühür sorumluluğu kaldırmaz, çünkü mühre götüren yol baştan sona kendi tercihleridir."
       },
       {
         "q": {
-          "tr": "Tahmin et: Allah münafıkları neye benzetiyor? (17–20)",
-          "de": "Rate mal: Womit vergleicht Allah die Heuchler? (17–20)"
+          "tr": "Kur’an kâfirlere 2 âyet, münafıklara 13 âyet ayırıyor. Asıl sebep ne?",
+          "de": "Der Koran widmet den Ungläubigen 2 Verse, den Heuchlern 13. Was ist der eigentliche Grund?"
         },
         "options": [
           {
-            "tr": "Sönen bir ateşe",
-            "de": "Mit einem Feuer, das erlischt"
+            "tr": "Münafıkların tövbesi artık kabul edilmez",
+            "de": "Die Reue der Heuchler wird nicht mehr angenommen"
           },
           {
-            "tr": "Gök gürültülü bir sağanağa",
-            "de": "Mit einem Gewitterregen"
+            "tr": "Medine’de münafık sayısı kâfirlerden fazlaydı",
+            "de": "In Medina gab es mehr Heuchler als Ungläubige"
           },
           {
-            "tr": "İkisine de",
-            "de": "Mit beidem"
+            "tr": "Münafıklar daha akıllıydı",
+            "de": "Die Heuchler waren klüger"
           },
           {
-            "tr": "Kurumuş bir ağaca",
-            "de": "Mit einem verdorrten Baum"
+            "tr": "Münafık içeriden zarar verir ve tanınması zordur",
+            "de": "Der Heuchler schadet von innen und ist schwer zu erkennen"
+          }
+        ],
+        "answer": 3,
+        "note": "İbn Kesîr: Fitneleri ve verdikleri zarar daha büyüktü. Açık düşmana karşı tedbir alınır; ama saflarının içindekini tanımak zordur. (Nisâ 145: Münafıklar cehennemin en alt tabakasındadır.) “Tövbeleri kabul edilmez” şıkkı yanlış: Nisâ 146’da tövbe kapısı açık bırakılır."
+      },
+      {
+        "q": {
+          "tr": "9. âyet, “Allah’ı aldatmaya çalışırlar” diyor. Ama Allah aldatılamaz. Âyet neden böyle söylüyor?",
+          "de": "Vers 9 sagt: „Sie wollen Allah betrügen.“ Aber Allah kann man nicht täuschen. Warum sagt der Vers das so?"
+        },
+        "options": [
+          {
+            "tr": "Sadece mecaz; aslında Peygamber kastediliyor",
+            "de": "Nur bildlich: Eigentlich ist nur der Prophet gemeint"
+          },
+          {
+            "tr": "Allah müminlerin safını kendi safı sayar",
+            "de": "Allah betrachtet die Reihen der Gläubigen als Seine eigene Seite"
+          },
+          {
+            "tr": "Gerçekten Allah’ı aldatabileceklerini sanıyorlardı",
+            "de": "Sie glaubten wirklich, Allah täuschen zu können"
+          },
+          {
+            "tr": "Mescidi ve vakıf mallarını aldatıyorlardı",
+            "de": "Sie betrogen die Moschee und ihr Vermögen"
+          }
+        ],
+        "answer": 1,
+        "note": "Bir sonraki slayt tam bunu anlatıyor: Allah müminlerin safını kendi safı, işlerini kendi işi kabul ediyor. Mümine emniyet, münafığa tehdit. “Gerçekten aldatabileceklerini sanıyorlardı” şıkkı da kısmen konuşulabilir: Kendilerini o kadar zeki sanıyorlardı."
+      },
+      {
+        "q": {
+          "tr": "“Allah da hastalıklarını artırdı” (10). Bu, Allah’ın adaletiyle nasıl bağdaşır?",
+          "de": "„Allah hat ihre Krankheit vermehrt“ (10). Wie passt das zu Allahs Gerechtigkeit?"
+        },
+        "options": [
+          {
+            "tr": "Sadece bedenî hastalıklardan bahsediliyor",
+            "de": "Es geht nur um körperliche Krankheiten"
+          },
+          {
+            "tr": "Ne yaparlarsa yapsınlar, artık tövbe edemezler",
+            "de": "Egal was sie tun, sie können nicht mehr bereuen"
+          },
+          {
+            "tr": "Hastalığına sarılandan hastalık alınmaz; sonuç olarak büyür",
+            "de": "Wer an seiner Krankheit festhält, dem wird sie nicht genommen; sie wächst als Folge"
+          },
+          {
+            "tr": "Allah onlara bu hastalığı baştan vermişti",
+            "de": "Allah hat ihnen die Krankheit von Anfang an gegeben"
           }
         ],
         "answer": 2,
-        "note": "İki misal: ateş yakan (17–18) ve karanlıkta sağanak, şimşek (19–20)."
+        "note": "Hastalık küçük bir muhalefetle başlar ve büyür (bir sonraki slayttaki görsel). Allah zulmetmez; insanın sarıldığı şeyi ona verir. Tövbe kapısı açık: Hastalığı fark edip bırakan iyileşir."
+      },
+      {
+        "q": {
+          "tr": "“Biz ancak ıslah edicileriz” diyorlar ve Allah: “Farkında değiller.” Bunun en tehlikeli yanı ne?",
+          "de": "„Wir sind doch nur Verbesserer“, und Allah sagt: „Sie merken es nicht.“ Was ist daran am gefährlichsten?"
+        },
+        "options": [
+          {
+            "tr": "Yalan söylemeleri",
+            "de": "Dass sie lügen"
+          },
+          {
+            "tr": "Güç ve makam sahibi olmaları",
+            "de": "Dass sie Macht und Ansehen haben"
+          },
+          {
+            "tr": "Başkalarını da ikna etmeleri",
+            "de": "Dass sie andere überzeugen"
+          },
+          {
+            "tr": "Kendini iyi sanan, tedavi aramaz",
+            "de": "Wer sich für gut hält, sucht keine Heilung"
+          }
+        ],
+        "answer": 3,
+        "note": "Hasta olduğunu bilen doktora gider; kendini sağlıklı sanan gitmez. Aynaya dön: Ben de bazen yanlışımı “iyilik” diye mi paketliyorum?"
+      },
+      {
+        "q": {
+          "tr": "Ateş misalinde (17) ateşi kendileri yakıyor, sonra Allah ışıklarını alıyor. “Ateşi yakmak” neyi anlatır?",
+          "de": "Im Feuer-Gleichnis (17) zünden sie das Feuer selbst an, dann nimmt Allah ihr Licht. Wofür steht das Anzünden?"
+        },
+        "options": [
+          {
+            "tr": "İslâm’ı tanıdılar, ışığı gördüler",
+            "de": "Sie haben den Islam kennengelernt und das Licht gesehen"
+          },
+          {
+            "tr": "Kendi ideolojilerini icat ettiler",
+            "de": "Sie haben eigene Ideologien erfunden"
+          },
+          {
+            "tr": "İbadet ettiler ama yanlış yaptılar",
+            "de": "Sie haben gebetet, aber falsch"
+          },
+          {
+            "tr": "Müslümanlara savaş açtılar",
+            "de": "Sie haben den Muslimen den Krieg erklärt"
+          }
+        ],
+        "answer": 0,
+        "note": "Münafık ışığı gördü, yolunu bir an aydınlattı; ama yüz çevirdi. Kâfir hiç bakmadı, münafık baktı ve döndü. Bu yüzden karanlıkları daha koyu: Işığı kaybeden, hiç görmeyenden daha çok karanlıkta kalır."
       },
       {
         "q": {
@@ -205,7 +233,7 @@
             "de": "Nie"
           }
         ],
-        "note": "Anonim! Riya nifakın küçük kardeşidir. Hz. Ömer bile Huzeyfe’ye “Beni münafıklar arasında saydı mı?” diye sorardı."
+        "note": "Anonim! Riya nifakın küçük kardeşidir. Hz. Ömer bile Huzeyfe’ye “Beni münafıklar arasında saydı mı?” diye sorardı. “Hiç” diyen çoksa: Kendinden bu kadar emin olmak da bir tehlike değil mi?"
       }
     ]
   }
