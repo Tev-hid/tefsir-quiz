@@ -302,6 +302,18 @@ async function startQuiz(meta) {
   refreshLive();
   nextQuestion(quiz, st, aRef);
 }
+// Admin-Testmodus: spielt das Quiz ohne irgendetwas in die Datenbank zu schreiben
+async function testQuiz(meta) {
+  app.innerHTML = `<div class="loading">Quiz wird geladen …</div>`;
+  const quiz = await loadQuiz(meta);
+  quiz.test = true;
+  quiz.meta = meta;
+  const st = { uid: state.user.uid, nick: state.nick, quizId: quiz.id, idx: 0, score: 0, correct: 0, pending: -1, answers: [], startedAt: Date.now() };
+  state.inQuiz = true;
+  refreshLive();
+  toast("Testmodus: nichts wird gespeichert.", 3000);
+  nextQuestion(quiz, st, null);
+}
 function confirmStart(quiz) {
   return new Promise((resolve) => {
     app.innerHTML = `
@@ -330,7 +342,7 @@ function nextQuestion(quiz, st, aRef) {
 
   app.innerHTML = `
     <div class="play">
-      <div class="play-head"><span>Frage ${st.idx + 1} / ${n}</span><span>⭐ ${st.score} Punkte</span></div>
+      <div class="play-head"><span>${quiz.test ? `<b style="color:#F08A73">TEST</b> · ` : ""}Frage ${st.idx + 1} / ${n}</span><span>⭐ ${st.score} Punkte</span></div>
       <div class="timer" id="timer"><div></div></div>
       <div class="q-text">${tx(q.q)}</div>
       ${q.arabic ? `<div class="q-arabic">${esc(q.arabic)}</div>` : ""}
@@ -348,7 +360,7 @@ function nextQuestion(quiz, st, aRef) {
 
   const startTimer = async () => {
     st.pending = st.idx;
-    updateDoc(aRef, { pending: st.idx }).catch(() => {});
+    if (aRef) updateDoc(aRef, { pending: st.idx }).catch(() => {});
     t0 = performance.now();
     const tick = () => {
       const left = Math.max(0, 1 - (performance.now() - t0) / (limit * 1000));
@@ -386,7 +398,7 @@ function nextQuestion(quiz, st, aRef) {
     const nextBtn = document.getElementById("next");
     nextBtn.disabled = true;
     try {
-      await updateDoc(aRef, { idx: st.idx, pending: -1, score: st.score, correct: st.correct, answers: st.answers });
+      if (aRef) await updateDoc(aRef, { idx: st.idx, pending: -1, score: st.score, correct: st.correct, answers: st.answers });
     } catch (e) {
       toast("Speichern hat nicht geklappt – bitte Internet prüfen.", 4000);
     }
@@ -569,6 +581,26 @@ const RENDERERS = {
 
 async function finishQuiz(quiz, st, aRef) {
   const total = quiz.questions.length;
+  if (quiz.test) {
+    state.inQuiz = false;
+    refreshLive();
+    const wrong = st.answers.map((a, i) => (a.ok ? null : i + 1)).filter(Boolean);
+    app.innerHTML = `
+      <div class="play result">
+        <div class="eyebrow" style="color:#F08A73">TESTMODUS · nichts gespeichert</div>
+        <h2 style="color:#F6F1E7">${tx(quiz.title)}</h2>
+        <div class="big">${st.score}</div>
+        <div>Punkte</div>
+        <div class="stats">
+          <div><b>${st.correct}/${total}</b>richtig</div>
+          <div><b>${wrong.length ? wrong.join(", ") : "–"}</b>falsche Fragen (Nr.)</div>
+        </div>
+        <button class="btn block" id="again">Nochmal testen</button>
+        <button class="btn block secondary" data-nav="admin" style="margin-top:10px">Zurück zum Admin</button>
+      </div>`;
+    document.getElementById("again").onclick = () => testQuiz(quiz.meta);
+    return;
+  }
   const result = {
     uid: state.user.uid, nick: state.nick, quizId: quiz.id,
     score: st.score, correct: st.correct, total,
@@ -635,7 +667,10 @@ async function renderAdmin() {
       return `<div class="card">
         <div class="switch-row">
           <div><div class="eyebrow">${esc(q.week || "")}</div><h3 style="margin:0">${tx(q.title)}</h3><div class="muted">${esc(q.ayat || "")} · ID: ${esc(q.id)}</div></div>
-          <button class="btn ${isOpen ? "danger" : ""}" data-toggle="${q.id}" data-open="${isOpen ? 1 : 0}">${isOpen ? "Schließen" : "Freigeben"}</button>
+          <div class="btn-row" style="justify-content:flex-end">
+            <button class="btn secondary" data-test="${q.id}">▶ Testen</button>
+            <button class="btn ${isOpen ? "danger" : ""}" data-toggle="${q.id}" data-open="${isOpen ? 1 : 0}">${isOpen ? "Schließen" : "Freigeben"}</button>
+          </div>
         </div>
         <table class="admin-table" style="margin-top:12px">
           <thead><tr><th>Nickname</th><th>Status</th><th></th></tr></thead>
@@ -659,6 +694,10 @@ async function renderAdmin() {
     try { await setDoc(doc(db, "quizState", id), { open: willOpen, changedAt: Date.now() }); toast(willOpen ? "Quiz freigegeben ✓" : "Quiz geschlossen"); }
     catch (e) { toast("Fehler: " + e.message, 5000); }
     renderAdmin();
+  }));
+  app.querySelectorAll("[data-test]").forEach((b) => b.addEventListener("click", () => {
+    const meta = catalog.find((q) => q.id === b.dataset.test);
+    if (meta) testQuiz(meta);
   }));
   app.querySelectorAll("[data-reset]").forEach((b) => b.addEventListener("click", async () => {
     if (!(await askConfirm(`Versuch von ${b.dataset.nick} für dieses Quiz löschen? Die Person kann dann neu spielen.`, "Zurücksetzen"))) return;
