@@ -338,7 +338,7 @@ function nextQuestion(quiz, st, aRef) {
   if (st.idx >= quiz.questions.length) return finishQuiz(quiz, st, aRef);
   const q = quiz.questions[st.idx];
   const n = quiz.questions.length;
-  const limit = q.time || DEFAULT_TIME;
+  const limit = Math.round((q.time || DEFAULT_TIME) * 1.5); // +50 % Zeit für alle Fragen
 
   app.innerHTML = `
     <div class="play">
