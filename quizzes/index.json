@@ -4,6 +4,19 @@
     "file": "w01-bakara-1-5.json",
     "week": "Woche 1",
     "ayat": "Bakara 1–5",
-    "title": { "tr": "Muttakîler kimdir?", "de": "Wer sind die Gottesfürchtigen?" }
+    "title": {
+      "tr": "Muttakîler kimdir?",
+      "de": "Wer sind die Gottesfürchtigen?"
+    }
+  },
+  {
+    "id": "w02-bakara-6-20",
+    "file": "w02-bakara-6-20.json",
+    "week": "Woche 2",
+    "ayat": "Bakara 6–20",
+    "title": {
+      "tr": "Kâfirler ve münafıklar",
+      "de": "Ungläubige und Heuchler"
+    }
   }
 ]
