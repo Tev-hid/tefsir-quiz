@@ -1,0 +1,570 @@
+{
+  "id": "w02-bakara-6-20",
+  "week": "Woche 2",
+  "ayat": "Bakara 6–20",
+  "title": {
+    "tr": "Kâfirler ve münafıklar",
+    "de": "Ungläubige und Heuchler"
+  },
+  "questions": [
+    {
+      "type": "tf",
+      "q": {
+        "tr": "6. âyet (“Uyarsan da uyarmasan da iman etmezler”) her kâfirin asla iman etmeyeceğini söyler.",
+        "de": "Vers 6 („Ob du sie warnst oder nicht, sie glauben nicht“) sagt, dass kein Ungläubiger jemals glauben wird."
+      },
+      "answer": false,
+      "explain": {
+        "tr": "Yanlış. Hz. Ömer, Hâlid b. Velîd gibi pek çok sahabi önce inkâr edip sonra iman etti. Âyet, inadında ısrar edip küfür üzere ölenleri anlatır.",
+        "de": "Falsch. Viele Gefährten wie ʿUmar oder Ḫālid ibn al-Walīd lehnten zuerst ab und glaubten später. Der Vers beschreibt jene, die im Unglauben beharren und darin sterben."
+      }
+    },
+    {
+      "type": "mc",
+      "q": {
+        "tr": "Seyyid Kutub’a göre 7. âyetteki “mühür” nedir?",
+        "de": "Was ist laut Sayyid Quṭb das „Siegel“ in Vers 7?"
+      },
+      "options": [
+        {
+          "text": {
+            "tr": "Kur’an’a yüz çevirmelerinin sonucu ve cezası",
+            "de": "Die Folge und Strafe dafür, dass sie sich vom Koran abwandten"
+          }
+        },
+        {
+          "text": {
+            "tr": "Baştan konmuş bir engel; seçme şansları yoktu",
+            "de": "Eine Sperre von Anfang an; sie hatten keine Wahl"
+          }
+        },
+        {
+          "text": {
+            "tr": "Sadece kulaklarına konmuş bir perde",
+            "de": "Nur ein Vorhang vor ihren Ohren"
+          }
+        },
+        {
+          "text": {
+            "tr": "Tövbe edenlerin kalbine konan bir koruma",
+            "de": "Ein Schutz auf dem Herzen der Reuigen"
+          }
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "Önce insan kapıyı kapatır, Allah o kapıyı mühürler. Mühür başlangıç değil, sonuçtur.",
+        "de": "Zuerst schließt der Mensch die Tür, dann versiegelt Allah sie. Das Siegel ist nicht der Anfang, sondern die Folge."
+      }
+    },
+    {
+      "type": "bucket",
+      "time": 75,
+      "q": {
+        "tr": "Kâfir mi, münafık mı? Her kartı doğru sepete koy!",
+        "de": "Ungläubiger oder Heuchler? Lege jede Karte in den richtigen Korb!"
+      },
+      "buckets": [
+        {
+          "label": {
+            "tr": "🔒 Kâfir",
+            "de": "Ungläubiger"
+          },
+          "icon": "🔒"
+        },
+        {
+          "label": {
+            "tr": "🎭 Münafık",
+            "de": "Heuchler"
+          },
+          "icon": "🎭"
+        }
+      ],
+      "items": [
+        {
+          "text": {
+            "tr": "Açıkça reddeder",
+            "de": "Lehnt offen ab"
+          },
+          "bucket": 0
+        },
+        {
+          "text": {
+            "tr": "“İnandık” der ama inanmaz",
+            "de": "Sagt „Wir glauben“, glaubt aber nicht"
+          },
+          "bucket": 1
+        },
+        {
+          "text": {
+            "tr": "Kalbi ve kulağı mühürlü",
+            "de": "Herz und Gehör sind versiegelt"
+          },
+          "bucket": 0
+        },
+        {
+          "text": {
+            "tr": "Kalbindeki hastalık büyür",
+            "de": "Die Krankheit im Herzen wächst"
+          },
+          "bucket": 1
+        },
+        {
+          "text": {
+            "tr": "Işığı gördü, sonra yüz çevirdi",
+            "de": "Hat das Licht gesehen und sich dann abgewandt"
+          },
+          "bucket": 1
+        },
+        {
+          "text": {
+            "tr": "Karşıda durur, kolay tanınır",
+            "de": "Steht gegenüber und ist leicht zu erkennen"
+          },
+          "bucket": 0
+        }
+      ],
+      "explain": {
+        "tr": "Kâfir kapıyı açıkça kapattı; münafık açık gösterip içeriden kilitledi.",
+        "de": "Der Ungläubige hat die Tür offen geschlossen; der Heuchler tut so, als sei sie offen, und verriegelt sie von innen."
+      }
+    },
+    {
+      "type": "mc",
+      "image": "img/maske.svg",
+      "q": {
+        "tr": "Bu maske en çok hangi âyeti anlatır?",
+        "de": "Welchen Vers beschreibt diese Maske am besten?"
+      },
+      "options": [
+        {
+          "text": {
+            "tr": "14: Müminlere “İnandık”, şeytanlarına “Biz sizinleyiz” derler",
+            "de": "14: Zu den Gläubigen „Wir glauben“, zu ihren Teufeln „Wir sind mit euch“"
+          }
+        },
+        {
+          "text": {
+            "tr": "7: Kalplerini ve kulaklarını mühürledi",
+            "de": "7: Er hat ihre Herzen und ihr Gehör versiegelt"
+          }
+        },
+        {
+          "text": {
+            "tr": "16: Hidayete karşılık sapıklığı satın aldılar",
+            "de": "16: Sie haben den Irrtum für die Rechtleitung eingetauscht"
+          }
+        },
+        {
+          "text": {
+            "tr": "20: Şimşek neredeyse gözlerini alıverecek",
+            "de": "20: Der Blitz raubt ihnen beinahe das Augenlicht"
+          }
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "İki yüz, iki dil: Hangi ortamdaysa onun dilini konuşur. Yarısı gülen, yarısı karanlık bir maske.",
+        "de": "Zwei Gesichter, zwei Zungen: Je nach Umgebung sprechen sie deren Sprache – eine Maske, halb lächelnd, halb finster."
+      }
+    },
+    {
+      "type": "mc",
+      "q": {
+        "tr": "9. âyet “Allah’ı ve iman edenleri aldatmaya çalışırlar” der. Allah aldatılamazken âyet neden “Allah’ı” diyor?",
+        "de": "Vers 9 sagt: „Sie wollen Allah und die Gläubigen betrügen.“ Warum „Allah“, obwohl man Ihn nicht täuschen kann?"
+      },
+      "options": [
+        {
+          "text": {
+            "tr": "Allah müminlerin safını kendi safı sayar",
+            "de": "Allah betrachtet die Reihen der Gläubigen als Seine eigene Seite"
+          }
+        },
+        {
+          "text": {
+            "tr": "Münafıklar Allah’ı gerçekten aldattılar",
+            "de": "Die Heuchler haben Allah wirklich getäuscht"
+          }
+        },
+        {
+          "text": {
+            "tr": "Sadece Peygamber kastediliyor",
+            "de": "Gemeint ist nur der Prophet"
+          }
+        },
+        {
+          "text": {
+            "tr": "Kelime hatalı tercüme edilmiş",
+            "de": "Das Wort ist falsch übersetzt"
+          }
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "Mümine emniyet: Davası Allah tarafından destekleniyor. Münafığa tehdit: Savaşı müminlerle değil, Allah’la.",
+        "de": "Sicherheit für den Gläubigen: Allah steht hinter seiner Sache. Drohung für den Heuchler: Sein Kampf richtet sich nicht nur gegen die Gläubigen, sondern gegen Allah."
+      }
+    },
+    {
+      "type": "tf",
+      "q": {
+        "tr": "Münafıklar sonunda en çok müminleri aldatmış olur.",
+        "de": "Am Ende betrügen die Heuchler vor allem die Gläubigen."
+      },
+      "answer": false,
+      "explain": {
+        "tr": "Yanlış. “Onlar ancak kendilerini aldatırlar da farkında olmazlar.” (9) Tehlikede olan müminler değil, münafıkların kendileridir.",
+        "de": "Falsch. „Doch sie betrügen nur sich selbst, ohne es zu merken.“ (9) In Gefahr sind nicht die Gläubigen, sondern die Heuchler selbst."
+      }
+    },
+    {
+      "type": "order",
+      "time": 45,
+      "q": {
+        "tr": "Kalpteki hastalık nasıl büyür? Aşamaları sıraya diz!",
+        "de": "Wie wächst die Krankheit im Herzen? Ordne die Stufen!"
+      },
+      "items": [
+        {
+          "tr": "Küçük bir muhalefet",
+          "de": "Ein kleiner Widerspruch"
+        },
+        {
+          "tr": "Büyür",
+          "de": "Sie wächst"
+        },
+        {
+          "tr": "Genişler",
+          "de": "Sie breitet sich aus"
+        },
+        {
+          "tr": "Bütün kalbi sarar",
+          "de": "Sie umfasst das ganze Herz"
+        }
+      ],
+      "explain": {
+        "tr": "“Kalplerinde hastalık vardır; Allah da hastalıklarını artırdı.” (10) Küçük bir diken temizlenmezse yara olur.",
+        "de": "„In ihren Herzen ist Krankheit, und Allah hat ihre Krankheit vermehrt.“ (10) Ein kleiner Dorn, den man nicht entfernt, wird zur Wunde."
+      }
+    },
+    {
+      "type": "mc",
+      "q": {
+        "tr": "“Yeryüzünde bozgunculuk yapmayın” denince “Biz ancak ıslah edicileriz” derler. Allah ne cevap verir?",
+        "de": "Sagt man ihnen „Stiftet kein Unheil“, antworten sie: „Wir sind doch nur Verbesserer.“ Was antwortet Allah?"
+      },
+      "options": [
+        {
+          "text": {
+            "tr": "“Asıl bozguncular onlardır, fakat farkında değiller.”",
+            "de": "„Sie sind die Unheilstifter, aber sie merken es nicht.“"
+          }
+        },
+        {
+          "text": {
+            "tr": "“Onlar gerçekten iyilik yapıyorlar.”",
+            "de": "„Sie tun wirklich Gutes.“"
+          }
+        },
+        {
+          "text": {
+            "tr": "“Onları affettim.”",
+            "de": "„Ich habe ihnen vergeben.“"
+          }
+        },
+        {
+          "text": {
+            "tr": "Hiç cevap vermez",
+            "de": "Er antwortet gar nicht"
+          }
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "12. âyet. Bugün de en büyük bozgunculuklar çoğu zaman “ıslah”, “reform”, “iyilik” adı altında yapılır.",
+        "de": "Vers 12. Auch heute geschieht das größte Unheil oft im Namen von „Verbesserung“, „Reform“ und „dem Guten“."
+      }
+    },
+    {
+      "type": "mc",
+      "q": {
+        "tr": "13. âyette münafıklar “Beyinsizler gibi mi iman edelim?” derken kimi küçümsüyordu?",
+        "de": "In Vers 13 sagen die Heuchler: „Sollen wir glauben wie die Toren?“ Wen verachteten sie damit?"
+      },
+      "options": [
+        {
+          "text": {
+            "tr": "İlk iman eden fakirleri, köleleri (Bilâl, Ammâr…)",
+            "de": "Die ersten Gläubigen, Arme und Sklaven (Bilāl, ʿAmmār …)"
+          }
+        },
+        {
+          "text": {
+            "tr": "Mekke’deki müşrikleri",
+            "de": "Die Götzendiener in Mekka"
+          }
+        },
+        {
+          "text": {
+            "tr": "Medine’deki Yahudi önderlerini",
+            "de": "Die jüdischen Anführer in Medina"
+          }
+        },
+        {
+          "text": {
+            "tr": "Kendi çocuklarını",
+            "de": "Ihre eigenen Kinder"
+          }
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "Kibirli Medine eşrafı imanı fakirlere ve düşkünlere layık görüyordu. Allah’ın cevabı: “Asıl beyinsizler kendileridir, fakat bilmezler.”",
+        "de": "Der hochmütige Adel Medinas hielt den Glauben für etwas für Arme und Schwache. Allahs Antwort: „Sie selbst sind die Toren, aber sie wissen es nicht.“"
+      }
+    },
+    {
+      "type": "mc",
+      "q": {
+        "tr": "“Asıl Allah onlarla alay eder ve onlara mühlet verir.” (15) Seyyid Kutub onları neye benzetir?",
+        "de": "„Allah ist es, Der mit ihnen Spott treibt und ihnen Aufschub gewährt.“ (15) Womit vergleicht Sayyid Quṭb sie?"
+      },
+      "options": [
+        {
+          "text": {
+            "tr": "Kapandan habersiz koşuşturan farelere",
+            "de": "Mit Mäusen, die ahnungslos auf eine Falle zulaufen"
+          }
+        },
+        {
+          "text": {
+            "tr": "Ağını ören örümceğe",
+            "de": "Mit einer Spinne, die ihr Netz webt"
+          }
+        },
+        {
+          "text": {
+            "tr": "Sürüden ayrılan kurda",
+            "de": "Mit einem Wolf, der die Herde verlässt"
+          }
+        },
+        {
+          "text": {
+            "tr": "Kafesteki kuşa",
+            "de": "Mit einem Vogel im Käfig"
+          }
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "Kendilerini akıllı sanıp koşuştururlar; mühlet aslında kapanın kurulmasıdır. Ve Allah’ın alayı onların alayına benzemez!",
+        "de": "Sie halten sich für schlau und rennen umher; der Aufschub ist in Wahrheit das Aufstellen der Falle. Und Allahs Spott gleicht nicht ihrem Spott!"
+      }
+    },
+    {
+      "type": "match",
+      "time": 45,
+      "q": {
+        "tr": "16. âyetteki “ticaret”: Eşleştir!",
+        "de": "Das „Geschäft“ in Vers 16: Ordne zu!"
+      },
+      "pairs": [
+        {
+          "left": {
+            "tr": "Verdikleri",
+            "de": "Was sie hergaben"
+          },
+          "right": {
+            "tr": "Hidayet",
+            "de": "Rechtleitung"
+          }
+        },
+        {
+          "left": {
+            "tr": "Aldıkları",
+            "de": "Was sie bekamen"
+          },
+          "right": {
+            "tr": "Dalâlet (sapıklık)",
+            "de": "Irrtum"
+          }
+        },
+        {
+          "left": {
+            "tr": "Kârları",
+            "de": "Ihr Gewinn"
+          },
+          "right": {
+            "tr": "Hiç yok",
+            "de": "Keiner"
+          }
+        }
+      ],
+      "explain": {
+        "tr": "“Ticaretleri kâr getirmedi.” İsteselerdi hidayete ererlerdi; hidayet ellerindeydi. En aptal tüccarın alışverişi.",
+        "de": "„Ihr Geschäft brachte keinen Gewinn.“ Sie hätten die Rechtleitung haben können – sie lag in ihren Händen. Das Geschäft des dümmsten Händlers."
+      }
+    },
+    {
+      "type": "mc",
+      "q": {
+        "tr": "Ateş misalinde (17) ateşi kendileri yakar, sonra Allah ışıklarını alır. “Ateşi yakmak” neyi anlatır?",
+        "de": "Im Feuer-Gleichnis (17) zünden sie das Feuer selbst an, dann nimmt Allah ihr Licht. Wofür steht das Anzünden?"
+      },
+      "options": [
+        {
+          "text": {
+            "tr": "İslâm’ı tanıdılar, ışığı gördüler",
+            "de": "Sie haben den Islam kennengelernt und das Licht gesehen"
+          }
+        },
+        {
+          "text": {
+            "tr": "Müslümanlara savaş açtılar",
+            "de": "Sie haben den Muslimen den Krieg erklärt"
+          }
+        },
+        {
+          "text": {
+            "tr": "Kendi ideolojilerini icat ettiler",
+            "de": "Sie haben eigene Ideologien erfunden"
+          }
+        },
+        {
+          "text": {
+            "tr": "İbadet ettiler ama yanlış yaptılar",
+            "de": "Sie haben gebetet, aber falsch"
+          }
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "Münafık ışığı gördü ama yüz çevirdi. Işığı kaybeden, hiç görmeyenden daha koyu bir karanlıkta kalır.",
+        "de": "Der Heuchler hat das Licht gesehen und sich abgewandt. Wer das Licht verliert, steht in tieferer Dunkelheit als jemand, der es nie sah."
+      }
+    },
+    {
+      "type": "mc",
+      "q": {
+        "tr": "Fırtına misali (20): Şimşek çaktıkça birkaç adım yürürler; karanlık çökünce ne yaparlar?",
+        "de": "Gewitter-Gleichnis (20): Sooft der Blitz aufleuchtet, gehen sie ein paar Schritte. Was tun sie, wenn es dunkel wird?"
+      },
+      "options": [
+        {
+          "text": {
+            "tr": "Durakalırlar",
+            "de": "Sie bleiben stehen"
+          }
+        },
+        {
+          "text": {
+            "tr": "Geri koşarlar",
+            "de": "Sie rennen zurück"
+          }
+        },
+        {
+          "text": {
+            "tr": "Yardım isterler",
+            "de": "Sie rufen um Hilfe"
+          }
+        },
+        {
+          "text": {
+            "tr": "Fener yakarlar",
+            "de": "Sie zünden eine Lampe an"
+          }
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "Münafığın iç dünyası: Sürekli korku ve tereddüt. İşine gelince birkaç adım, işine gelmeyince durmak.",
+        "de": "Das Innere des Heuchlers: ständige Angst und Zögern. Ein paar Schritte, wenn es passt; stehen bleiben, wenn nicht."
+      }
+    },
+    {
+      "type": "order",
+      "time": 60,
+      "q": {
+        "tr": "Münafıkların âyetlerini 8’den 17’ye sıraya diz!",
+        "de": "Ordne die Verse über die Heuchler von 8 bis 17!"
+      },
+      "items": [
+        {
+          "tr": "“Allah’a ve âhirete inandık” derler (8)",
+          "de": "Sie sagen: „Wir glauben an Allah und den Jüngsten Tag“ (8)"
+        },
+        {
+          "tr": "Kalplerinde hastalık var (10)",
+          "de": "In ihren Herzen ist Krankheit (10)"
+        },
+        {
+          "tr": "“Beyinsizler gibi mi iman edelim?” (13)",
+          "de": "„Sollen wir glauben wie die Toren?“ (13)"
+        },
+        {
+          "tr": "Hidayeti verip dalâleti aldılar (16)",
+          "de": "Sie tauschten Rechtleitung gegen Irrtum (16)"
+        },
+        {
+          "tr": "Ateş yakan adam misali (17)",
+          "de": "Das Gleichnis vom Feuer (17)"
+        }
+      ],
+      "explain": {
+        "tr": "Önce iddia, sonra kalbin hastalığı, kibir, kötü ticaret ve sonunda misal.",
+        "de": "Erst die Behauptung, dann die Krankheit des Herzens, der Hochmut, das schlechte Geschäft und schließlich das Gleichnis."
+      }
+    },
+    {
+      "type": "tf",
+      "q": {
+        "tr": "Münafıklık sadece Medine’de yaşanmış ve bitmiş tarihi bir olaydır.",
+        "de": "Heuchelei ist ein historisches Ereignis, das nur in Medina vorkam und vorbei ist."
+      },
+      "answer": false,
+      "explain": {
+        "tr": "Yanlış. Seyyid Kutub: Bu manzara insanlık tarihinin her neslinde karşımıza çıkar. Bu âyetleri “onlar” diye değil, bir ayna gibi okuruz.",
+        "de": "Falsch. Sayyid Quṭb: Dieses Bild begegnet uns in jeder Generation. Wir lesen diese Verse nicht über „die anderen“, sondern wie einen Spiegel."
+      }
+    },
+    {
+      "type": "mc",
+      "q": {
+        "tr": "Hz. Ömer, münafıkların isimlerini bilen Huzeyfe’ye ne sorardı?",
+        "de": "Was fragte ʿUmar Ḥuḏaifa, der die Namen der Heuchler kannte?"
+      },
+      "options": [
+        {
+          "text": {
+            "tr": "“Beni onların arasında saydı mı?”",
+            "de": "„Hat er mich zu ihnen gezählt?“"
+          }
+        },
+        {
+          "text": {
+            "tr": "“Onlar kaç kişi?”",
+            "de": "„Wie viele sind es?“"
+          }
+        },
+        {
+          "text": {
+            "tr": "“Onları cezalandıralım mı?”",
+            "de": "„Sollen wir sie bestrafen?“"
+          }
+        },
+        {
+          "text": {
+            "tr": "“En tehlikelisi kim?”",
+            "de": "„Wer ist der Gefährlichste?“"
+          }
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "Cennetle müjdelenmiş Hz. Ömer bile kendinden emin değildi. Nifaktan korkmak imanın alametidir.",
+        "de": "Selbst ʿUmar, dem das Paradies verheißen war, war sich seiner nicht sicher. Die Angst vor Heuchelei ist ein Zeichen des Glaubens."
+      }
+    }
+  ]
+}
