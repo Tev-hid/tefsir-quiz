@@ -1,0 +1,648 @@
+{
+  "id": "w03-bakara-21-29",
+  "week": "Woche 3",
+  "ayat": "Bakara 21–29",
+  "title": {
+    "tr": "“Ey insanlar!”",
+    "de": "„O ihr Menschen!“"
+  },
+  "questions": [
+    {
+      "type": "mc",
+      "q": {
+        "tr": "21. âyet “Ey insanlar!” diye başlıyor. Bu çağrı kime?",
+        "de": "Vers 21 beginnt mit „O ihr Menschen!“. An wen richtet sich dieser Ruf?"
+      },
+      "options": [
+        {
+          "text": {
+            "tr": "Bütün insanlara: muttakîye, kâfire ve münafığa",
+            "de": "An alle Menschen: an Gottesfürchtige, Ungläubige und Heuchler"
+          }
+        },
+        {
+          "text": {
+            "tr": "Sadece müminlere",
+            "de": "Nur an die Gläubigen"
+          }
+        },
+        {
+          "text": {
+            "tr": "Sadece Mekke müşriklerine",
+            "de": "Nur an die Götzendiener in Mekka"
+          }
+        },
+        {
+          "text": {
+            "tr": "Sadece münafıklara",
+            "de": "Nur an die Heuchler"
+          }
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "Üç zümreyi anlattıktan sonra Kur’an hepsine birden sesleniyor. Kapı herkese açık.",
+        "de": "Nach den drei Gruppen wendet sich der Koran an alle zugleich. Die Tür steht jedem offen."
+      }
+    },
+    {
+      "type": "mc",
+      "q": {
+        "tr": "“Rabbinize kulluk edin ki korunasınız.” (21) Bu kulluğun amacı nedir?",
+        "de": "„Dient eurem Herrn, auf dass ihr gottesfürchtig werdet.“ (21) Was ist das Ziel dieses Dienens?"
+      },
+      "options": [
+        {
+          "text": {
+            "tr": "Azaptan korunmak ve muttakîlerden olmak",
+            "de": "Sich vor der Strafe schützen und zu den Gottesfürchtigen gehören"
+          }
+        },
+        {
+          "text": {
+            "tr": "Dünyada zengin olmak",
+            "de": "Im Diesseits reich werden"
+          }
+        },
+        {
+          "text": {
+            "tr": "Allah’ın ibadete ihtiyacını karşılamak",
+            "de": "Allahs Bedürfnis nach Anbetung erfüllen"
+          }
+        },
+        {
+          "text": {
+            "tr": "Meleklere benzemek",
+            "de": "Den Engeln gleichen"
+          }
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "Allah’ın ibadete ihtiyacı yoktur. Kulluk bizi korur ve bizi üç zümrenin ilkine, muttakîlere katar.",
+        "de": "Allah braucht unsere Anbetung nicht. Das Dienen schützt uns und macht uns zu Gottesfürchtigen, der ersten der drei Gruppen."
+      }
+    },
+    {
+      "type": "match",
+      "time": 45,
+      "q": {
+        "tr": "22. âyetteki nimetler: Eşleştir!",
+        "de": "Die Gaben in Vers 22: Ordne zu!"
+      },
+      "pairs": [
+        {
+          "left": {
+            "tr": "Yer",
+            "de": "Die Erde"
+          },
+          "right": {
+            "tr": "Döşek, rahat bir barınak",
+            "de": "Ein Lager, eine bequeme Bleibe"
+          }
+        },
+        {
+          "left": {
+            "tr": "Gök",
+            "de": "Der Himmel"
+          },
+          "right": {
+            "tr": "Bina, sağlam bir çatı",
+            "de": "Ein Bau, ein festes Dach"
+          }
+        },
+        {
+          "left": {
+            "tr": "Gökten inen su",
+            "de": "Das Wasser vom Himmel"
+          },
+          "right": {
+            "tr": "Rızık ve hayatın kaynağı",
+            "de": "Versorgung und Quelle des Lebens"
+          }
+        }
+      ],
+      "explain": {
+        "tr": "“Her canlıyı sudan yarattık.” (Enbiyâ 30) Bunları yapan O iken, bile bile O’na nasıl eş koşulur?",
+        "de": "„Wir haben alles Lebendige aus Wasser gemacht.“ (21:30) Wenn Er all das tut, wie kann man Ihm wissentlich Partner beigesellen?"
+      }
+    },
+    {
+      "type": "tf",
+      "q": {
+        "tr": "Şirk, sadece puta tapmak demektir.",
+        "de": "Schirk bedeutet nur, Götzen anzubeten."
+      },
+      "answer": false,
+      "explain": {
+        "tr": "Yanlış. İbn Abbas: Gizli şirk vardır ve karanlık gecede kara bir kayada yürüyen karıncanın ayak sesinden daha gizlidir.",
+        "de": "Falsch. Ibn ʿAbbās: Es gibt verborgenen Schirk, leiser als die Schritte einer Ameise auf schwarzem Fels in dunkler Nacht."
+      }
+    },
+    {
+      "type": "mc",
+      "q": {
+        "tr": "İbn Abbas gizli şirki neye benzetir?",
+        "de": "Womit vergleicht Ibn ʿAbbās den verborgenen Schirk?"
+      },
+      "options": [
+        {
+          "text": {
+            "tr": "Karanlık gecede kara kayada yürüyen karıncanın ayak sesine",
+            "de": "Mit den Schritten einer Ameise auf schwarzem Fels in dunkler Nacht"
+          }
+        },
+        {
+          "text": {
+            "tr": "Uzaktan gelen rüzgârın sesine",
+            "de": "Mit dem Rauschen eines fernen Windes"
+          }
+        },
+        {
+          "text": {
+            "tr": "Denizdeki bir damlaya",
+            "de": "Mit einem Tropfen im Meer"
+          }
+        },
+        {
+          "text": {
+            "tr": "Gölgedeki bir gölgeye",
+            "de": "Mit einem Schatten im Schatten"
+          }
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "Bu yüzden Peygamberimiz “Allah ve sen dilersen” diyene “Beni Allah’a eş mi koşuyorsun?” demiştir.",
+        "de": "Deshalb sagte der Prophet zu jemandem, der „Wenn Allah und du wollt“ sagte: „Stellst du mich Allah gleich?“"
+      },
+      "image": "img/karinca.svg"
+    },
+    {
+      "type": "bucket",
+      "time": 75,
+      "q": {
+        "tr": "Gizli şirk tehlikesi mi, sebebe sarılmak mı? Kartları ayır!",
+        "de": "Gefahr des verborgenen Schirk oder Ursachen nutzen? Sortiere die Karten!"
+      },
+      "buckets": [
+        {
+          "label": {
+            "tr": "⚠️ Gizli şirk tehlikesi",
+            "de": "Gefahr: verborgener Schirk"
+          },
+          "icon": "⚠️"
+        },
+        {
+          "label": {
+            "tr": "✅ Sebebe sarılmak",
+            "de": "Ursachen nutzen – in Ordnung"
+          },
+          "icon": "✅"
+        }
+      ],
+      "items": [
+        {
+          "text": {
+            "tr": "“Allah ve sen dilersen…”",
+            "de": "„Wenn Allah und du wollt …“"
+          },
+          "bucket": 0
+        },
+        {
+          "text": {
+            "tr": "“Şu köpek olmasaydı eve hırsız girerdi.”",
+            "de": "„Ohne diesen Hund wäre ein Dieb eingebrochen.“"
+          },
+          "bucket": 0
+        },
+        {
+          "text": {
+            "tr": "“Bunu sadece falanca sayesinde başardım; o olmasa olmazdı.”",
+            "de": "„Das habe ich nur dank XY geschafft – ohne ihn wäre es unmöglich gewesen.“"
+          },
+          "bucket": 0
+        },
+        {
+          "text": {
+            "tr": "Hastalanınca doktora gidip ilaç kullanmak",
+            "de": "Bei Krankheit zum Arzt gehen und Medizin nehmen"
+          },
+          "bucket": 1
+        },
+        {
+          "text": {
+            "tr": "Tedbir alıp sonra Allah’a tevekkül etmek",
+            "de": "Vorsorge treffen und dann auf Allah vertrauen"
+          },
+          "bucket": 1
+        },
+        {
+          "text": {
+            "tr": "“Allah dilerse, sonra da sen…”",
+            "de": "„Wenn Allah will, und danach du …“"
+          },
+          "bucket": 1
+        }
+      ],
+      "explain": {
+        "tr": "Sebepleri görmek ve kullanmak yanlış değil. Tehlike, sebebi Allah’ın yanına koymaktır. Peygamberimiz “Allah ve sen” yerine “Allah, sonra sen” demeyi öğretmiştir.",
+        "de": "Ursachen zu sehen und zu nutzen ist nicht falsch. Gefährlich ist es, die Ursache neben Allah zu stellen. Der Prophet lehrte, statt „Allah und du“ zu sagen: „Allah, und danach du“."
+      }
+    },
+    {
+      "type": "mc",
+      "q": {
+        "tr": "23. âyette Allah, Peygamberimizden “kulumuz” diye bahsediyor. Bu neyi gösterir?",
+        "de": "In Vers 23 nennt Allah den Propheten „Unseren Diener“. Was zeigt das?"
+      },
+      "options": [
+        {
+          "text": {
+            "tr": "Onu onurlandırır: En yüce makam, Allah’a kul olmaktır",
+            "de": "Es ehrt ihn: Der höchste Rang ist, Allahs Diener zu sein"
+          }
+        },
+        {
+          "text": {
+            "tr": "Onun sıradan biri olduğunu",
+            "de": "Dass er ein gewöhnlicher Mensch ohne Rang war"
+          }
+        },
+        {
+          "text": {
+            "tr": "Onun Allah’tan uzak olduğunu",
+            "de": "Dass er Allah fern war"
+          }
+        },
+        {
+          "text": {
+            "tr": "Sadece bir hizmetçi olduğunu",
+            "de": "Dass er nur ein Bediensteter war"
+          }
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "“Kulumuz” bir yakınlık ve onur ifadesidir. Allah’a kul olmak, insanın ulaşabileceği en yüce makamdır.",
+        "de": "„Unser Diener“ drückt Nähe und Ehre aus. Allahs Diener zu sein ist der höchste Rang, den ein Mensch erreichen kann."
+      }
+    },
+    {
+      "type": "mc",
+      "q": {
+        "tr": "23. âyetteki meydan okuma, 1. âyetteki “Elif Lâm Mîm” ile nasıl bağlantılı?",
+        "de": "Wie hängt die Herausforderung in Vers 23 mit „Alif Lām Mīm“ in Vers 1 zusammen?"
+      },
+      "options": [
+        {
+          "text": {
+            "tr": "Kur’an sizin elinizdeki harflerden; gücünüz yetiyorsa benzerini getirin",
+            "de": "Der Koran besteht aus euren eigenen Buchstaben – bringt etwas Gleiches, wenn ihr könnt"
+          }
+        },
+        {
+          "text": {
+            "tr": "Bu harfler gizli bir şifredir",
+            "de": "Diese Buchstaben sind ein geheimer Code"
+          }
+        },
+        {
+          "text": {
+            "tr": "Bu harfler sadece Arapça bilenler içindir",
+            "de": "Diese Buchstaben sind nur für Arabischkundige"
+          }
+        },
+        {
+          "text": {
+            "tr": "İkisi arasında bir bağlantı yok",
+            "de": "Es gibt keinen Zusammenhang"
+          }
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "Harfler herkesin elinde; ama kimse bir sûrenin benzerini getiremedi.",
+        "de": "Die Buchstaben hat jeder – doch niemand konnte eine gleichwertige Sure bringen."
+      }
+    },
+    {
+      "type": "tf",
+      "q": {
+        "tr": "Kur’an’ın meydan okuması sadece Peygamber dönemindeki Araplara yönelikti.",
+        "de": "Die Herausforderung des Korans galt nur den Arabern zur Zeit des Propheten."
+      },
+      "answer": false,
+      "explain": {
+        "tr": "Yanlış. Meydan okuma kıyamete kadar sürer. 1400 yıldır cevapsız kalması Kur’an’ın apaçık delilidir.",
+        "de": "Falsch. Die Herausforderung gilt bis zum Jüngsten Tag. Dass sie seit 1400 Jahren unbeantwortet ist, ist ein klarer Beweis für den Koran."
+      }
+    },
+    {
+      "type": "mc",
+      "q": {
+        "tr": "24. âyet: “…ki asla yapamayacaksınız.” Bu cümle neden başlı başına bir mucizedir?",
+        "de": "Vers 24: „… und ihr werdet es niemals tun.“ Warum ist schon dieser Satz ein Wunder?"
+      },
+      "options": [
+        {
+          "text": {
+            "tr": "Sonucu önceden kesin söylüyor; yapabilselerdi Kur’an delil olmaktan çıkardı",
+            "de": "Er sagt das Ergebnis sicher voraus – hätten sie es gekonnt, wäre der Koran widerlegt"
+          }
+        },
+        {
+          "text": {
+            "tr": "Çünkü Araplar şiir yazmayı bilmiyordu",
+            "de": "Weil die Araber keine Dichtung kannten"
+          }
+        },
+        {
+          "text": {
+            "tr": "Çünkü kimse denemedi",
+            "de": "Weil es niemand versucht hat"
+          }
+        },
+        {
+          "text": {
+            "tr": "Çünkü meydan okuma sadece bir gün sürdü",
+            "de": "Weil die Herausforderung nur einen Tag galt"
+          }
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "Allah meydanı açtı. Yapabilseler hiç tereddüt etmeden yaparlardı; yapamadılar.",
+        "de": "Allah hat die Arena geöffnet. Hätten sie es gekonnt, hätten sie es sofort getan – sie konnten es nicht."
+      }
+    },
+    {
+      "type": "mc",
+      "q": {
+        "tr": "“Yakıtı insanlar ve taşlar…” (24) Seyyid Kutub’a göre insanlar ve taşlar neden bir arada?",
+        "de": "„Dessen Brennstoff Menschen und Steine sind …“ (24) Warum stehen laut Sayyid Quṭb Menschen und Steine zusammen?"
+      },
+      "options": [
+        {
+          "text": {
+            "tr": "Kalpleri mühürlenip inkârda direnenler, insan görünümlü taşlar gibidir",
+            "de": "Wer mit versiegeltem Herzen im Unglauben beharrt, ist wie ein Stein in Menschengestalt"
+          }
+        },
+        {
+          "text": {
+            "tr": "Çünkü cehennem bir taş ocağıdır",
+            "de": "Weil die Hölle ein Steinbruch ist"
+          }
+        },
+        {
+          "text": {
+            "tr": "Çünkü taşlar da günah işler",
+            "de": "Weil auch Steine sündigen"
+          }
+        },
+        {
+          "text": {
+            "tr": "Çünkü Araplar taştan evlerde yaşardı",
+            "de": "Weil die Araber in Steinhäusern lebten"
+          }
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "Meydan okumaya cevap veremedikleri hâlde iman etmemekte direnenler, ne kadar insan gibi görünseler de taş türündendir.",
+        "de": "Wer der Herausforderung nichts entgegensetzen kann und trotzdem den Glauben verweigert, ist – so menschlich er aussieht – wie ein Stein."
+      }
+    },
+    {
+      "type": "mc",
+      "q": {
+        "tr": "Cennet ehli bir meyve yiyince “Bu daha önce de rızıklandığımız şey” der (25). Ne kastediliyor?",
+        "de": "Die Bewohner des Paradieses sagen bei einer Frucht: „Das ist es ja, womit wir zuvor versorgt wurden.“ (25) Was ist gemeint?"
+      },
+      "options": [
+        {
+          "text": {
+            "tr": "Görünüşü benzer ama tadı hep yeni: sürpriz üstüne sürpriz",
+            "de": "Sie sieht gleich aus, schmeckt aber immer neu – Überraschung über Überraschung"
+          }
+        },
+        {
+          "text": {
+            "tr": "Hep aynı meyveyi yerler",
+            "de": "Sie essen immer dieselbe Frucht"
+          }
+        },
+        {
+          "text": {
+            "tr": "Dünyadaki meyvenin aynısıdır",
+            "de": "Es ist genau dieselbe Frucht wie im Diesseits"
+          }
+        },
+        {
+          "text": {
+            "tr": "Meyveler sadece bir görüntüdür",
+            "de": "Die Früchte sind nur ein Trugbild"
+          }
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "Seyyid Kutub bunu insanlara benzetir: Herkesin başı, gövdesi aynı; ama karakterleri bambaşka.",
+        "de": "Sayyid Quṭb vergleicht das mit den Menschen: Alle haben Kopf und Körper – doch ihr Charakter ist völlig verschieden."
+      }
+    },
+    {
+      "type": "mc",
+      "q": {
+        "tr": "26. âyet hangi itiraza cevap veriyor?",
+        "de": "Auf welchen Einwand antwortet Vers 26?"
+      },
+      "options": [
+        {
+          "text": {
+            "tr": "“Örümcek, sinek gibi misaller Allah’a yakışmaz.”",
+            "de": "„Gleichnisse mit Spinnen und Fliegen sind Allahs unwürdig.“"
+          }
+        },
+        {
+          "text": {
+            "tr": "“Kur’an çok uzun.”",
+            "de": "„Der Koran ist zu lang.“"
+          }
+        },
+        {
+          "text": {
+            "tr": "“Cennet yoktur.”",
+            "de": "„Es gibt kein Paradies.“"
+          }
+        },
+        {
+          "text": {
+            "tr": "“Peygamber şairdir.”",
+            "de": "„Der Prophet ist ein Dichter.“"
+          }
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "Allah sivrisinekten çekinmez: Sineğin de filin de Rabbi O’dur; hayat mucizesi ikisinde de vardır.",
+        "de": "Allah scheut Sich nicht vor der Mücke: Er ist Herr der Mücke wie des Elefanten – das Wunder des Lebens steckt in beiden."
+      }
+    },
+    {
+      "type": "mc",
+      "q": {
+        "tr": "Aynı sıkıntı iki kişinin başına geliyor. Biri Allah’a yaklaşıyor, diğeri uzaklaşıyor. 26. âyete göre fark nerede?",
+        "de": "Zwei Menschen trifft dieselbe Not. Einer kommt Allah näher, der andere entfernt sich. Wo liegt laut Vers 26 der Unterschied?"
+      },
+      "options": [
+        {
+          "text": {
+            "tr": "Kalpte: Her olay bir imtihandır; herkes seçtiği yola göre tepki verir",
+            "de": "Im Herzen: Jedes Ereignis ist eine Prüfung; jeder reagiert gemäß dem Weg, den er gewählt hat"
+          }
+        },
+        {
+          "text": {
+            "tr": "Sıkıntının büyüklüğünde",
+            "de": "In der Größe der Not"
+          }
+        },
+        {
+          "text": {
+            "tr": "Tamamen şansa bağlı",
+            "de": "Es ist reiner Zufall"
+          }
+        },
+        {
+          "text": {
+            "tr": "Allah birine haksızlık etmiştir",
+            "de": "Allah hat einem von beiden Unrecht getan"
+          }
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "Aynı misal birine hidayet, diğerine sapıklık olur. “Onunla ancak fâsıkları saptırır.”",
+        "de": "Dasselbe Gleichnis wird dem einen Rechtleitung, dem anderen Irrtum. „Irregehen lässt Er damit nur die Frevler.“"
+      }
+    },
+    {
+      "type": "match",
+      "time": 45,
+      "q": {
+        "tr": "27. âyet: Fâsıkların üç vasfını eşleştir!",
+        "de": "Vers 27: Ordne die drei Merkmale der Frevler zu!"
+      },
+      "pairs": [
+        {
+          "left": {
+            "tr": "Sözü bozarlar",
+            "de": "Sie brechen den Bund"
+          },
+          "right": {
+            "tr": "Fıtrattaki kulluk sözü",
+            "de": "Das angeborene Versprechen, Allah zu dienen"
+          }
+        },
+        {
+          "left": {
+            "tr": "Bağları koparırlar",
+            "de": "Sie zerschneiden Bindungen"
+          },
+          "right": {
+            "tr": "Akrabalık ve iman kardeşliği",
+            "de": "Verwandtschaft und Glaubensbrüderschaft"
+          }
+        },
+        {
+          "left": {
+            "tr": "Bozgunculuk yaparlar",
+            "de": "Sie stiften Unheil"
+          },
+          "right": {
+            "tr": "Allah’ın sözünün dışına çıkmak",
+            "de": "Sich über Allahs Gebot hinwegsetzen"
+          }
+        }
+      ],
+      "explain": {
+        "tr": "“İşte onlar hüsrana uğrayanlardır.” Her biri bozgunculukta bir adım daha öne götürür.",
+        "de": "„Das sind die Verlierer.“ Jeder dieser Schritte führt weiter ins Unheil."
+      }
+    },
+    {
+      "type": "order",
+      "time": 60,
+      "q": {
+        "tr": "28. âyet: Hayatın yolculuğunu sıraya diz!",
+        "de": "Vers 28: Ordne die Reise des Lebens!"
+      },
+      "items": [
+        {
+          "tr": "Ölüydünüz",
+          "de": "Ihr wart tot"
+        },
+        {
+          "tr": "O sizi diriltti",
+          "de": "Er hat euch lebendig gemacht"
+        },
+        {
+          "tr": "Sizi öldürecek",
+          "de": "Er lässt euch sterben"
+        },
+        {
+          "tr": "Sizi yine diriltecek",
+          "de": "Er macht euch wieder lebendig"
+        },
+        {
+          "tr": "O’na döndürüleceksiniz",
+          "de": "Ihr werdet zu Ihm zurückgebracht"
+        }
+      ],
+      "explain": {
+        "tr": "Kısa bir âyette bütün hayat sicili. Hayatı O’ndan aldıysanız, O’nu nasıl inkâr edersiniz?",
+        "de": "Das ganze Leben in einem kurzen Vers. Wenn ihr das Leben von Ihm habt – wie könnt ihr Ihn leugnen?"
+      }
+    },
+    {
+      "type": "mc",
+      "q": {
+        "tr": "“Yeryüzünde ne varsa hepsini sizin için yarattı.” (29) Günde 7 saat telefonunda vakit geçiren biri için bu âyet ne hatırlatır?",
+        "de": "„Er hat für euch alles auf der Erde erschaffen.“ (29) Woran erinnert dieser Vers jemanden, der täglich 7 Stunden am Handy verbringt?"
+      },
+      "options": [
+        {
+          "text": {
+            "tr": "Eşya insan için var; insan onun efendisi olmalı, kölesi değil",
+            "de": "Die Dinge sind für den Menschen da; er soll ihr Herr sein, nicht ihr Sklave"
+          }
+        },
+        {
+          "text": {
+            "tr": "Telefon kullanmak haramdır",
+            "de": "Ein Handy zu benutzen ist verboten"
+          }
+        },
+        {
+          "text": {
+            "tr": "Teknoloji şirktir",
+            "de": "Technik ist Schirk"
+          }
+        },
+        {
+          "text": {
+            "tr": "Âyetin bununla hiçbir ilgisi yok",
+            "de": "Der Vers hat damit nichts zu tun"
+          }
+        }
+      ],
+      "answer": 0,
+      "explain": {
+        "tr": "İnsan yeryüzünün halifesidir. İnsanın değerini küçülten her şey, yaratılış gayesine aykırıdır.",
+        "de": "Der Mensch ist Statthalter auf der Erde. Alles, was seinen Wert mindert, widerspricht dem Zweck seiner Erschaffung."
+      }
+    }
+  ]
+}
